@@ -48,6 +48,8 @@ cover: https://qiniu.miiiku.xyz/src/images/banner-footer.jpg
 
 需要交换友链的可以在留言板给我留言，看到后会加上的！
 
+你也可以在GitHub上Fork[我的项目](https://github.com/miiiku/hexo-blog.git)然后建立一个新的合并申请并描述改动。
+
 弱性要求如下
 
 * 博客类个人网站最佳
