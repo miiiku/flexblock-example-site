@@ -58,7 +58,7 @@ cover: https://qiniu.miiiku.xyz/src/images/banner-footer.jpg
 
 * 博客类个人网站最佳
 
-* 存活时间较长切经常偶尔发布过文章的最佳
+* 存活时间较长切~~经常~~偶尔发布过文章的最佳
 
 * 提交友链申请时已在自己网站添加本站友链的优先考虑
 
