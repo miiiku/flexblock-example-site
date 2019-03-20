@@ -1,6 +1,6 @@
 title: 小伙伴
 date: 2019-03-05 14:12:17
-layout: links
+type: links
 ---
 
 ### 可爱又迷人的小伙伴们
