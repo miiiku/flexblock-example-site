@@ -8,7 +8,7 @@ tags:
   - hexo
   - 主题
   - 个人博客
-cover:
+cover: https://qiniu.miiiku.xyz/attach/2019/03/f9f691c1c8626ad38f4d403371e05938753e2884.jpg
 ---
 
 # flex-block
@@ -19,8 +19,10 @@ cover:
 
 
 # 待考虑任务计划
+
 * 资源文件CDN配置，如插件
-* 归档页是否需要从新设计样式
+
+* 归档页需要从新设计样式
 
 
 # 可自定义的相关页面
@@ -95,6 +97,18 @@ date: {{ date }}
 cover:
 type:
 ---
+```
+
+# 自定义数据
+
+## 友链数据
+
+在目录的`source/_data`下新建一个**links.yml**
+
+一行一条数据，格式如下:
+
+``` yml
+- { "name" : "", "describe" : "", "link" : "", "cover" : "" }
 ```
 
 

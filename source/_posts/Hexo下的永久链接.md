@@ -4,6 +4,7 @@ date: 2019-03-20 19:44:16
 categories: QAQ
 tags:
   - hexo
+cover: https://qiniu.miiiku.xyz/attach/2019/03/73747353_p0.png
 ---
 
 

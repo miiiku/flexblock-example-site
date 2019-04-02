@@ -7,36 +7,18 @@ cover: https://qiniu.miiiku.xyz/src/images/banner-footer.jpg
 
 ### 关于我
 
-坐标：四川阆中，目前在成都工作，前端er。
-
-95后大叔，一个死肥宅，咸鱼一条，日常丧。
-
-内心深处住着一颗少女心(四斋蒸鹅心)
-
-喜欢日语，听音乐，看动漫，日剧，美食节目。 对科技，电子产品比较感兴趣。
-
-梦想是有生之年去次日本，圣地巡礼！
+**「90后」** **「男」** **「成都」**
 
 ### 关于博客
 
-~~博客是自己写的，纠结过是否使用wordpress,typecho,hexo等，但是因为种种原因都否决了~~
+基于[Hexo](https://hexo.io/zh-cn/)，主题是模仿加瞎改[Ghost](https://ghost.org/zh_CN/)的一个主题[nurui](https://nurui.fueko.net/)
 
-~~于是就自己写了一个，但是很多功能都不完善，体验有时很差！~~
+临时边看文档边写的，可能性能并不好，支持可能也不好。。。
 
-~~比如兼容性·管理·留言·通知等等做的都不好 留言头像用的是Gravatar，只能说凑合用叭= =~~
-
-博客是基于[Hexo](https://hexo.io/zh-cn/)的，主题自己写的，是模仿加瞎改[Ghost](https://ghost.org/zh_CN/)里的一个主题[nurui](https://nurui.fueko.net/)(应该是这个名字吧。。。)，看到这个主题本来就打算用Ghost的，但是主题太贵了，所以干脆就自己撸了一个
-
-主题是临时边看文档边写的，所以有可能性能并不好，支持可能也不好，反正自己用，有问题了在改吧。。。
-
-至于为什么不用自己写的博客了，嘛 因为精力有限，不想吧闲暇时间浪费太多在个人博客上，而且用一些成熟的框架也比较省心，对以后扩展，迁移什么的支持都很好
-
-如果下次要换博客的话，大概会换[Hugo](https://gohugo.io/)，Go语言开发的，听说比[Hexo](https://hexo.io/zh-cn/)快上很多，为什么这次不用是因为[Hexo](https://hexo.io/zh-cn/)基于**Node**，里面的语法都是**JavaScript**且有中文文档，编写主题很好上手。
-
-#### 大概就这样？？？
+有机会了大概会试试[Hugo](https://gohugo.io/)
 
 
-如何修改自己的评论头像
+### 如何修改自己的评论头像
 
 进入https://cn.gravatar.com/
 
@@ -50,9 +32,7 @@ cover: https://qiniu.miiiku.xyz/src/images/banner-footer.jpg
 
 你也可以在GitHub上[编辑](https://github.com/miiiku/hexo-blog/blob/master/source/_data/links.yml)友链
 
-找到并修改`source/_data/links.yml`,在尾部添加你的网站信息
-
-然后建立一个新的合并申请并描述改动。
+找到并修改`source/_data/links.yml`，在尾部添加你的网站信息并建立一个新的合并申请并描述改动。
 
 弱性要求如下
 

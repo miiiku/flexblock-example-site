@@ -6,11 +6,11 @@ categories:
 tags:
 - ONE OK ROCK
 - mv
-cover: https://qiniu.miiiku.xyz/video/ONE%20OK%20ROCK%20-%20Stand%20Out%20Fit%20In.mp4?vframe/jpg/offset/10
+cover: https://qiniu.miiiku.xyz/attach/2018/11/Stand-Out-Fit-In.jpg
 pageview: 88
 ---
 
- {% dplayer https://qiniu.miiiku.xyz/video/ONE%20OK%20ROCK%20-%20Stand%20Out%20Fit%20In.mp4 https://qiniu.miiiku.xyz/video/ONE%20OK%20ROCK%20-%20Stand%20Out%20Fit%20In.mp4?vframe/jpg/offset/10 %} 
+{% dplayer https://qiniu.miiiku.xyz/video/ONE%20OK%20ROCK%20-%20Stand%20Out%20Fit%20In.mp4 https://qiniu.miiiku.xyz/video/ONE%20OK%20ROCK%20-%20Stand%20Out%20Fit%20In.mp4?vframe/jpg/offset/10 %} 
 
 
 
