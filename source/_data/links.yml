@@ -12,3 +12,4 @@
 - { "_id" : ObjectId("5bc9e5c47cbc702ac21cbc84"), "datetime" : ISODate("2018-10-19T14:10:12.472Z"), "name" : "Infinite随想", "describe" : "We accept the love we think we deserve.", "link" : "https://freedomspread.com", "cover" : "https://s1.ax1x.com/2018/10/21/iBXNHf.jpg" }
 - { "name" : "枫灵er", "describe" : "什么都感兴趣什么都想学的小白", "link" : "http://www.wulongxin.com/", "cover" : "http://wx1.sinaimg.cn/mw690/817acd87ly1fzzh9ldz59j20ic0icq6k.jpg" }
 - { "name" : "🐔哥", "describe" : "🐔哥流弊", "link" : "http://zlzplay.com/", "cover" : "" }
+- { "name" : "Directoree", "describe" : "一个迷茫中的努力学习的Student🙃.", "link" : "https://directoree.github.io", "cover" : "https://i.loli.net/2019/04/10/5cadb3a1a5567.png" }
