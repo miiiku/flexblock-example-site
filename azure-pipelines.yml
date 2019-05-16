@@ -24,7 +24,7 @@ steps:
 - task: Npm@1
   inputs:
     command: 'custom'
-    customCommand: 'npx hexo'
+    customCommand: 'npm install hexo -g'
   displayName: 'npm install hexo -g'
 
 - task: Npm@1
