@@ -1,0 +1,74 @@
+# Header
+menu:
+  首页: /
+logo: https://qiniu.miiiku.xyz/src/images/logo.png
+banner: https://qiniu.miiiku.xyz/src/images/banner.jpg
+# banner: css/images/banner.jpg
+
+# large cover
+# long: [article, link]
+# short: [category, tag]
+large_legnth:
+  long: 20
+  short: 5
+
+# 一言
+# docs: https://hitokoto.cn/api
+# type: [a, b, c, d, e, f, g]
+hitokoto:
+  enable: true
+  type: a
+
+# valine 评论
+# docs: https://valine.js.org
+# You can get your appid and appkey from https://leancloud.cn
+valine:
+  enable: true
+  appId: 
+  appKey: 
+  avatar: mm
+  placeholder: 随便说点什么叭～
+  notify: true
+  visitor: true
+  pageSize: 10
+
+# dplayer 视频播放
+# docs: http://dplayer.js.org/#/zh-Hans/
+dplayer:
+  enable: true
+  theme: "#b7daff"
+  autoplay: false
+  loop: false
+  mutex: true
+
+# macy 瀑布流
+# docs: https://github.com/bigbite/macy.js
+# Specific configuration information go to `layout/plug-in/macy.ejs`
+macy: true
+
+# zoom 图片预览
+# docs: https://github.com/miiiku/zoom
+zoom:
+  enable: true
+  margin: 15
+  padding: 15
+  radius: 5
+  specify:
+  filter: "gallery" # filter Front-matter photos
+
+
+# widget behavior
+archive_type: 'monthly'
+show_count: false
+
+# beian
+beian: 
+
+# Miscellaneous
+google_analytics: 
+gauges_analytics: 
+baidu_analytics: 
+tencent_analytics: 
+favicon: /favicon.ico
+
+permalink: false
