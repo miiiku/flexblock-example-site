@@ -33,9 +33,15 @@ steps:
     script: 'hexo g'
   displayName: 'hexo g'
 
+- task: Bash@3
+  inputs:
+    targetType: 'inline'
+    script: 'ls -a'
+  displayName: 'show dir'
+
 - task: ArchiveFiles@2
   inputs:
-    rootFolderOrFile: '$(Build.BinariesDirectory)/.deploy_git/'
+    rootFolderOrFile: '$(Build.BinariesDirectory)/public/'
     includeRootFolder: true
     archiveType: 'zip'
     archiveFile: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
