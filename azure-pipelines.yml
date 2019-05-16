@@ -29,8 +29,8 @@ steps:
 
 - task: Bash@3
   inputs:
-    filePath: './'
-    arguments: 'hexo g'
+    targetType: 'inline'
+    script: 'hexo g'
   displayName: 'hexo g'
 
 - task: ArchiveFiles@2
