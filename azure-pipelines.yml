@@ -8,24 +8,28 @@ trigger:
 
 pool:
   vmImage: 'centos-latest'
-
+  
 - task: UseNode@1
   inputs:
     checkLatest: true
+  displayName: 'Install Node.js'
 
 - task: Npm@1
   inputs:
     command: 'install'
+  displayName: 'npm install'
 
 - task: Npm@1
   inputs:
     command: 'custom'
     customCommand: 'npx hexo'
+  displayName: 'npm install hexo -g'
 
 - task: Npm@1
   inputs:
     command: 'custom'
     customCommand: 'hexo g'
+  displayName: 'hexo g'
 
 - task: ArchiveFiles@2
   inputs:
@@ -34,12 +38,9 @@ pool:
     archiveType: 'zip'
     archiveFile: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
     replaceExistingArchive: true
+  displayName: 'zip file'
 
 steps:
-- script: echo Hello, world!
-  displayName: 'Run a one-line script'
 
-- script: |
-    echo Add other tasks to build, test, and deploy your project.
-    echo See https://aka.ms/yaml
-  displayName: 'Run a multi-line script'
+- script: echo success
+  displayName: 'end...'
