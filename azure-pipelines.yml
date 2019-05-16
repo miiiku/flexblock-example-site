@@ -7,7 +7,33 @@ trigger:
 - master
 
 pool:
-  vmImage: 'ubuntu-latest'
+  vmImage: 'centos-latest'
+
+- task: UseNode@1
+  inputs:
+    checkLatest: true
+
+- task: Npm@1
+  inputs:
+    command: 'install'
+
+- task: Npm@1
+  inputs:
+    command: 'custom'
+    customCommand: 'npx hexo'
+
+- task: Npm@1
+  inputs:
+    command: 'custom'
+    customCommand: 'hexo g'
+
+- task: ArchiveFiles@2
+  inputs:
+    rootFolderOrFile: '$(Build.BinariesDirectory)/.deploy_git/'
+    includeRootFolder: true
+    archiveType: 'zip'
+    archiveFile: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
+    replaceExistingArchive: true
 
 steps:
 - script: echo Hello, world!
