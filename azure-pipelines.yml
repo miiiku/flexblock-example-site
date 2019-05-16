@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: 'centos-latest'
+  vmImage: 'Ubuntu-latest'
 
 steps:
 
