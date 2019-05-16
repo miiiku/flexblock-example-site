@@ -27,10 +27,10 @@ steps:
     customCommand: 'install hexo -g'
   displayName: 'npm install hexo -g'
 
-- task: Npm@1
+- task: Bash@3
   inputs:
-    command: 'custom'
-    customCommand: 'hexo g'
+    filePath: './'
+    arguments: 'hexo g'
   displayName: 'hexo g'
 
 - task: ArchiveFiles@2
