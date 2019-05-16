@@ -8,7 +8,9 @@ trigger:
 
 pool:
   vmImage: 'centos-latest'
-  
+
+steps:
+
 - task: UseNode@1
   inputs:
     checkLatest: true
@@ -39,8 +41,6 @@ pool:
     archiveFile: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
     replaceExistingArchive: true
   displayName: 'zip file'
-
-steps:
 
 - script: echo success
   displayName: 'end...'
