@@ -55,11 +55,11 @@ steps:
     verbose: true
   displayName: 'zip file'
 
-- task: DownloadBuildArtifacts@0
+- task: PublishBuildArtifacts@1
   inputs:
-    buildType: 'current'
-    downloadType: 'specific'
-    downloadPath: '$(System.ArtifactsDirectory)'
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+    ArtifactName: 'drop'
+    publishLocation: 'Container'
 
 - script: echo success
   displayName: 'end...'
