@@ -33,18 +33,6 @@ steps:
     script: 'hexo g'
   displayName: 'hexo g'
 
-- task: Bash@3
-  inputs:
-    targetType: 'inline'
-    script: 'ls -a'
-  displayName: 'show dir'
-
-- task: Bash@3
-  inputs:
-    targetType: 'inline'
-    script: 'pwd'
-  displayName: 'show url'
-
 # - task: ArchiveFiles@2
 #   inputs:
 #     rootFolderOrFile: '$(Build.BinariesDirectory)'
@@ -57,17 +45,17 @@ steps:
 
 - task: ArchiveFiles@2
   inputs:
-    rootFolderOrFile: '$(System.DefaultWorkingDirectory)'
+    rootFolderOrFile: '$(System.DefaultWorkingDirectory)/public'
     includeRootFolder: false
     archiveType: 'zip'
-    archiveFile: '$(Build.ArtifactStagingDirectory)/blog.zip'
+    archiveFile: '$(Build.ArtifactStagingDirectory)/file.zip'
     replaceExistingArchive: true
   displayName: 'zip file'
 
 - task: PublishBuildArtifacts@1
   inputs:
     PathtoPublish: '$(Build.ArtifactStagingDirectory)'
-    ArtifactName: 'drop'
+    ArtifactName: 'blog'
     publishLocation: 'Container'
 
 - script: echo success
