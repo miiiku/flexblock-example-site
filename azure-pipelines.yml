@@ -45,14 +45,23 @@ steps:
     script: 'pwd'
   displayName: 'show url'
 
+# - task: ArchiveFiles@2
+#   inputs:
+#     rootFolderOrFile: '$(Build.BinariesDirectory)'
+#     includeRootFolder: true
+#     archiveType: 'zip'
+#     archiveFile: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
+#     replaceExistingArchive: true
+#     verbose: true
+#   displayName: 'zip file'
+
 - task: ArchiveFiles@2
   inputs:
-    rootFolderOrFile: '$(Build.BinariesDirectory)'
-    includeRootFolder: true
+    rootFolderOrFile: '$(System.DefaultWorkingDirectory)/www'
+    includeRootFolder: false
     archiveType: 'zip'
-    archiveFile: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
+    archiveFile: '$(Build.ArtifactStagingDirectory)blog.zip'
     replaceExistingArchive: true
-    verbose: true
   displayName: 'zip file'
 
 - task: PublishBuildArtifacts@1
