@@ -60,7 +60,7 @@ steps:
     rootFolderOrFile: '$(System.DefaultWorkingDirectory)'
     includeRootFolder: false
     archiveType: 'zip'
-    archiveFile: '$(Build.ArtifactStagingDirectory)blog.zip'
+    archiveFile: '$(Build.ArtifactStagingDirectory)/blog.zip'
     replaceExistingArchive: true
   displayName: 'zip file'
 
