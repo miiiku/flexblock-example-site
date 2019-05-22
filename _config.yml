@@ -13,7 +13,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://pixelcat.moe
+url: https://miiiku.xyz
 root: /
 permalink: :year/:month/:slug/
 permalink_defaults:
@@ -82,5 +82,5 @@ theme: flex-block
 deploy:
   type: git
   # repo: root@133.130.124.41:/var/www/git/blog.git
-  repo: root@47.106.203.75:/var/www/GitLibrary/blog.git
+  repo: 
   branch: master
