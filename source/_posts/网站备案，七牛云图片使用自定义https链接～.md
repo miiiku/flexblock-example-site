@@ -17,16 +17,16 @@ pageview: 272
 
 捣鼓了一晚上终于弄好啦，写了一个方法把数据库里的所有文章图片的地址都换了，美滋滋
 
-![20180323-DF35160112D0.png](https://qiniu.miiiku.xyz/20180323-DF35160112D0.png)
+![20180323-DF35160112D0.png](https://qiniu.miiiku.xyz/attach/2018/03/20180323-DF35160112D0.png)
 
 
-![20180323-90388DE812A3.png](https://qiniu.miiiku.xyz/20180323-90388DE812A3.png)
+![20180323-90388DE812A3.png](https://qiniu.miiiku.xyz/attach/2018/03/20180323-90388DE812A3.png)
 
 
-![20180323-5718F5A4732C.png](https://qiniu.miiiku.xyz/20180323-5718F5A4732C.png)
+![20180323-5718F5A4732C.png](https://qiniu.miiiku.xyz/attach/2018/03/20180323-5718F5A4732C.png)
 
 
-![20180323-D0909D865EBF.png](https://qiniu.miiiku.xyz/20180323-D0909D865EBF.png)
+![20180323-D0909D865EBF.png](https://qiniu.miiiku.xyz/attach/2018/03/20180323-D0909D865EBF.png)
 
 
 

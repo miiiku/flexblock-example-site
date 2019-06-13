@@ -12,15 +12,15 @@ pageview: 473
 
 突然想给博客加上HTTPS，正好发现阿里云可以购买一年免费的证书 申请地址：[点击跳转](https://common-buy.aliyun.com/?spm=5176.2020520163.cas.134.4272e7a9cWkru2&commodityCode=cas#/buy)
 
-![TIM%E6%88%AA%E5%9B%BE20170919154649.png](///qiniu.miiiku.xyz/TIM%E6%88%AA%E5%9B%BE20170919154649.png)
+![TIM%E6%88%AA%E5%9B%BE20170919154649.png](//qiniu.miiiku.xyz/attach/2017/-9/19/TIM%E6%88%AA%E5%9B%BE20170919154649.png)
 
 购买完成后，根据提示完成相关设置(具体流程就不说了，按着说明来就好了)，点击下载
 
-![TIM%E6%88%AA%E5%9B%BE20170919154954.png](///qiniu.miiiku.xyz/TIM%E6%88%AA%E5%9B%BE20170919154954.png)
+![TIM%E6%88%AA%E5%9B%BE20170919154954.png](//qiniu.miiiku.xyz/attach/2017/-9/19/TIM%E6%88%AA%E5%9B%BE20170919154954.png)
 
 这里因为我用的是nginx 服务器所以下载nginx类型的，下载完成后，解压文件拷贝到服务端主机目录下(我这里放在Nginx安装目录下的cert文件夹下)
 
-![TIM%E6%88%AA%E5%9B%BE20170919164433.png](///qiniu.miiiku.xyz/TIM%E6%88%AA%E5%9B%BE20170919164433.png)
+![TIM%E6%88%AA%E5%9B%BE20170919164433.png](//qiniu.miiiku.xyz/attach/2017/-9/19/TIM%E6%88%AA%E5%9B%BE20170919164433.png)
 打开 Nginx 安装目录下 conf 目录中的 nginx.conf 文件 添加以下内容：（其他内容根据自身情况调整）
 
 ```
@@ -77,13 +77,13 @@ https.createServer(options, app).listen(port, function() {
 
 但是访问博客发现。。。
 
-![TIM%E6%88%AA%E5%9B%BE20170919163426.png](///qiniu.miiiku.xyz/TIM%E6%88%AA%E5%9B%BE20170919163426.png)
+![TIM%E6%88%AA%E5%9B%BE20170919163426.png](//qiniu.miiiku.xyz/attach/2017/-9/19/TIM%E6%88%AA%E5%9B%BE20170919163426.png)
 
 这就很尴尬了，看了一下发现是网易云音乐用的是HTTP连接，所以小绿锁消失。。。 先这样吧，不管了= =
 
 后台页面正常显示~
 
-![TIM%E6%88%AA%E5%9B%BE20170919163859.png](///qiniu.miiiku.xyz/TIM%E6%88%AA%E5%9B%BE20170919163859.png)
+![TIM%E6%88%AA%E5%9B%BE20170919163859.png](//qiniu.miiiku.xyz/attach/2017/-9/19/TIM%E6%88%AA%E5%9B%BE20170919163859.png)
 
 
 
