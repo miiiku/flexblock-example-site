@@ -5,8 +5,8 @@
 # Site
 title: 我在这里
 subtitle: 想要变得更好
-description: 一个基于Hexo的个人博客
-keywords: 个人博客 Hexo
+description: 我在这里，一个死宅的个人自留地，一个基于hexo的个人博客。随便写写，分享生活
+keywords: 我在这里 个人博客 自留地 死宅 hexo flex-block
 author: Sukoshi
 language: zh-CN
 timezone:
@@ -81,6 +81,5 @@ theme: flex-block
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  # repo: root@133.130.124.41:/var/www/git/blog.git
   repo: 
   branch: master
