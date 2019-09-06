@@ -11,18 +11,12 @@ tags:
 cover: https://qiniu.miiiku.xyz/attach/2019/03/f9f691c1c8626ad38f4d403371e05938753e2884.jpg
 ---
 
+
 # flex-block
 
 一个基于`Hexo`的主题
 
 模仿加瞎改`Ghost`里的一个主题`nurui`
-
-
-# 待考虑任务计划
-
-* 资源文件CDN配置，如插件
-
-* 归档页需要从新设计样式
 
 
 # 可自定义的相关页面
@@ -121,16 +115,39 @@ type:
 
 # <meta name="description" content=[config.description]>
 description: 
+
 # <meta name="keywords" content=[config.keywords]>
 keywords: 
+
 # <meta name="author" content=[config.author]>
 author: 
+
 # <meta name="copyright" content=[config.copyright]>
 copyright:
 ```
 
 
 # 配置项:
+
+## 代码高亮
+
+hexo默认提供了highlightjs代码高亮，如何开启？
+
+**查找并修改`Hexo`下的`_config.yml`**
+
+``` yml
+highlight:
+  enable: true
+  line_number: true
+  auto_detect: true
+  tab_replace:
+  hljs: true
+  theme: monokai
+```
+
+其中`enable`为开启代码高亮，`hljs`设置为hljs为class，`theme`为highlight代码高亮主题，不设置默认为default
+
+具体的主题可以在[https://highlightjs.org/](https://highlightjs.org/)查看
 
 ## 长标题
 
@@ -170,21 +187,21 @@ dplayer:
 
 详情查看[http://dplayer.js.org/](http://dplayer.js.org/)
 
-## macy 瀑布流
+## waterfall 瀑布流
 
-进入`flex-block`配置文件`_config.yml`找到`macy`
+进入`flex-block`配置文件`_config.yml`找到`waterfall`
 
 ``` yml
-# macy 瀑布流
-# docs: https://github.com/bigbite/macy.js
-# Specific configuration information go to `layout/plug-in/macy.ejs`
-macy: true
+# waterfall 瀑布流
+# docs: https://github.com/miiiku/waterfall
+# Specific configuration information go to `layout/plug-in/waterfall.ejs`
+waterfall: true
 ```
 
-如果要进行详细的配置，请找到并编辑`layout/plug-in/macy.ejs`
+如果要进行详细的配置，请找到并编辑`layout/plug-in/waterfall.ejs`
 
 
-详情查看[https://github.com/bigbite/macy.js](https://github.com/bigbite/macy.js)
+详情查看[https://github.com/bigbite/waterfall.js](https://github.com/bigbite/waterfall.js)
 
 ## zoom 图片预览
 
@@ -259,19 +276,34 @@ hitokoto:
 ## 插入瀑布流 waterfall
 
 ``` markdown
-{% waterfall %}
+{% waterfall [options] %}
 ![imgname](imgsrc)
 ![imgname](imgsrc)
 ![imgname](imgsrc)
 {% endwaterfall %}
 ```
 
-**注意: 需要开启`macy`插件才能正常使用本内置标签**
+具体可选参数查看[https://github.com/miiiku/waterfall](https://github.com/miiiku/waterfall)
+
+🌰: 如设置布局为`水平布局`，每个元素的类名为`item-image`，原参数的`驼峰命名`改为`横线连接`
+
+``` markdown
+{% waterfall direction=h item-class=item-image %}
+![imgname](imgsrc)
+...
+{% endwaterfall %}
+```
+
+**注意: 需要开启`waterfall`插件才能正常使用本内置标签**
 
 
 # 其他
 
-## LOGO
+## favicon
+
+替换掉主题文件下的`source/favicon.ico`
+
+## logo
 
 ``` yml
 logo:
@@ -291,8 +323,11 @@ banner:
 
 ``` yml
 google_analytics: 
+
 gauges_analytics: 
+
 baidu_analytics: 
+
 tencent_analytics: 
 ```
 
