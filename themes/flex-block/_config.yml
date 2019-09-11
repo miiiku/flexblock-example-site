@@ -1,7 +1,7 @@
 # Header
 menu:
   首页: /
-  分类: /categories
+  # 分类: /categories
   标签: /tags
   友链: /links
   留言: /messages
@@ -29,7 +29,7 @@ hitokoto:
 # You can get your appid and appkey from https://leancloud.cn
 # 这里appId和appKey一定一定要改成自己的，没有的话去https://leancloud.cn这个网站注册创建一个
 valine:
-  enable: true
+  enable: false
   appId: oTmfgIaoB7PfPATvA9tsOwTu-gzGzoHsz
   appKey: PPbJycuezKD3BJlhHUy8zOnG
   avatar: mm
@@ -37,6 +37,11 @@ valine:
   notify: true
   visitor: true
   pageSize: 10
+
+disqus:
+  enable: true
+  website: sukoshi95
+  error: 如果你看不到评论，那么就真的看不到评论 w(゜Д゜)w
 
 # dplayer 视频播放
 # docs: http://dplayer.js.org/#/zh-Hans/
@@ -50,7 +55,8 @@ dplayer:
 # waterfall 瀑布流
 # docs: https://github.com/miiiku/waterfall
 # Specific configuration information go to `layout/plug-in/waterfall.ejs`
-waterfall: true
+waterfall:
+  enable: true
 
 # zoom 图片预览
 # docs: https://github.com/miiiku/zoom

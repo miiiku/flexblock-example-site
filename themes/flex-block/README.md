@@ -5,6 +5,16 @@
 
 模仿加瞎改`Ghost`里的一个主题`nurui`
 
+# 预览
+
+### 首页
+![home.png](./img/home.png)
+
+### 内容页
+![content.png](./img/content.png)
+
+### 标签页
+![tags.png](./img/tags.png)
 
 # 可自定义的相关页面
 
@@ -210,7 +220,7 @@ zoom:
 
 ## Valine评论
 
-进入`flex-block`配置文件`_config.yml`找到`comment`
+进入`flex-block`配置文件`_config.yml`找到`valine`
 
 ``` yml
 # valine 评论
@@ -232,6 +242,20 @@ valine:
 
 详情查看[https://valine.js.org/configuration.html](https://valine.js.org/configuration.html)
 
+## disqus评论
+
+进入`flex-block`配置文件`_config.yml`找到`disqus`
+
+``` yml
+# disqus 评论
+# docs: https://disqus.com/
+# website 网站到昵称
+# error 加载失败的提示语
+disqus:
+  enable: true
+  website: # your website
+  error: 如果你看不到评论，那么就真的看不到评论 w(゜Д゜)w
+```
 
 ## 一言
 
