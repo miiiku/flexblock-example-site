@@ -21,6 +21,8 @@ pageview: 100
 
 放桌子上又感觉空间很挤，纠结ing，等周末在想想办法。
 
+{% waterfall direction=h %}
+
 ![https://qiniu.miiiku.xyz/attach/2018/12144950C7-B75E-4541-89EA-747C9B1D4804.jpg](https://qiniu.miiiku.xyz/attach/2018/12144950C7-B75E-4541-89EA-747C9B1D4804.jpg)
 
 ![https://qiniu.miiiku.xyz/attach/2018/12AAE6F08C-E991-4B84-9477-A4307AB449A9.jpg](https://qiniu.miiiku.xyz/attach/2018/12AAE6F08C-E991-4B84-9477-A4307AB449A9.jpg)
@@ -39,5 +41,5 @@ pageview: 100
 
 ![https://qiniu.miiiku.xyz/attach/2018/12DC336DF3-849C-4AE9-82BD-91EA58197C36.jpg](https://qiniu.miiiku.xyz/attach/2018/12DC336DF3-849C-4AE9-82BD-91EA58197C36.jpg)
 
-
+{% endwaterfall %}
 
