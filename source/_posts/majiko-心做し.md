@@ -12,7 +12,7 @@ cover: https://qiniu.miiiku.xyz/attach/2019/04/majiko-%E5%BF%83%E5%81%9A%E3%81%9
 
 ### 以前经常听的一首歌，まじ娘的版本也很好听
 
-{% dplayer https://qiniu.miiiku.xyz/attach/2019/04/majiko%20-%20%E5%BF%83%E5%81%9A%E3%81%97.mp4 https://qiniu.miiiku.xyz/attach/2019/04/majiko%20-%20%E5%BF%83%E5%81%9A%E3%81%97.mp4?vframe/jpg/offset/248 %}
+{% dplayer url="https://qiniu.miiiku.xyz/attach/2019/04/majiko%20-%20%E5%BF%83%E5%81%9A%E3%81%97.mp4" cover="https://qiniu.miiiku.xyz/attach/2019/04/majiko%20-%20%E5%BF%83%E5%81%9A%E3%81%97.mp4?vframe/jpg/offset/248" %}
 
 
 心做し (カバー) - majiko (まじ娘)

@@ -52,10 +52,26 @@ dplayer:
   loop: false
   mutex: true
 
+# aplayer 音频播放
+# docs: https://aplayer.js.org/#/zh-Hans/
+aplayer:
+  enable: true
+  theme: "#b7daff"
+  autoplay: false
+  loop: false
+  mutex: true
+  lrcType: 3
+
 # waterfall 瀑布流
 # docs: https://github.com/miiiku/waterfall
 # Specific configuration information go to `layout/plug-in/waterfall.ejs`
 waterfall:
+  enable: true
+
+# zoom 图片预览
+# docs: https://github.com/miiiku/zoom
+# Specific configuration information go to `layout/plug-in/zoom.ejs`
+zoom:
   enable: true
 
 # widget behavior

@@ -9,7 +9,7 @@ cover: https://qiniu.miiiku.xyz/video/Lemon-%E7%B1%B3%E6%B4%A5%E7%8E%84%E5%B8%AB
 pageview: 387
 ---
 
- {% dplayer https://qiniu.miiiku.xyz/video/Lemon-%E7%B1%B3%E6%B4%A5%E7%8E%84%E5%B8%AB%28Full%20Covered%20by%20%E3%82%B3%E3%83%8F%E3%82%99%E3%82%BD%E3%83%AD%20&%20%E6%98%A5%E8%8C%B6%29.mp4 https://qiniu.miiiku.xyz/video/Lemon-%E7%B1%B3%E6%B4%A5%E7%8E%84%E5%B8%AB%28Full%20Covered%20by%20%E3%82%B3%E3%83%8F%E3%82%99%E3%82%BD%E3%83%AD%20&%20%E6%98%A5%E8%8C%B6%29.mp4?vframe/jpg/offset/5 %} 
+ {% dplayer url="https://qiniu.miiiku.xyz/video/Lemon-%E7%B1%B3%E6%B4%A5%E7%8E%84%E5%B8%AB%28Full%20Covered%20by%20%E3%82%B3%E3%83%8F%E3%82%99%E3%82%BD%E3%83%AD%20&%20%E6%98%A5%E8%8C%B6%29.mp4" cover="https://qiniu.miiiku.xyz/video/Lemon-%E7%B1%B3%E6%B4%A5%E7%8E%84%E5%B8%AB%28Full%20Covered%20by%20%E3%82%B3%E3%83%8F%E3%82%99%E3%82%BD%E3%83%AD%20&%20%E6%98%A5%E8%8C%B6%29.mp4?vframe/jpg/offset/5" %} 
 
 
 
