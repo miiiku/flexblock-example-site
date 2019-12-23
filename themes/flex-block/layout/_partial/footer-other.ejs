@@ -75,6 +75,7 @@
     return;
   }
   let hm = document.createElement("script");
+  let s = document.querySelector("script");
   hm.src = "https://browser.sentry-cdn.com/5.10.2/bundle.min.js";
   hm.integrity = "sha384-ssBfXiBvlVC7bdA/VX03S88B5MwXQWdnpJRbUYFPgswlOBwETwTp6F3SMUNpo9M9";
   hm.crossOrigin = "anonymous";
@@ -82,6 +83,7 @@
   hm.onload = function () {
     Sentry.init({ dsn: "https://d4e3bac81c30416fb7b917004fdc2a6f@sentry.io/1864685" });
   }
+  s.parentNode.insertBefore(hm, s);
 })();
 </script>
 <!-- 插入Sentry End -->
