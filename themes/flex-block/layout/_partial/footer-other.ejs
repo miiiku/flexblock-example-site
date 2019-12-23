@@ -1,6 +1,26 @@
 <!-- 尾部其他内容 -->
 
-<%# Gaug.es Analytics %>
+<!-- 插入Sentry -->
+<script>
+  (function () {
+    if (window.location.hostname === "localhost" || window.location.hostname.startsWith("192.168")) {
+      return console.log("本地调试");
+    }
+    let hm = document.createElement("script");
+    let s = document.querySelector("script");
+    hm.src = "https://browser.sentry-cdn.com/5.10.2/bundle.min.js";
+    hm.integrity = "sha384-ssBfXiBvlVC7bdA/VX03S88B5MwXQWdnpJRbUYFPgswlOBwETwTp6F3SMUNpo9M9";
+    hm.crossOrigin = "anonymous";
+  
+    hm.onload = function () {
+      Sentry.init({ dsn: "https://d4e3bac81c30416fb7b917004fdc2a6f@sentry.io/1864685" });
+      hell();
+    }
+    s.parentNode.insertBefore(hm, s);
+  })();
+</script>
+<!-- 插入Sentry End -->
+
 <% if (theme.gauges_analytics) { %>
 <!-- Gaug.es Analytics START -->
 <script type="text/javascript">
@@ -23,7 +43,6 @@
 <!-- Gaug.es Analytics End -->
 <% } %>
 
-<%# Google Analytics %>
 <% if (theme.google_analytics) { %>
 <!-- Google Analytics START -->
 <script type="text/javascript">
@@ -43,7 +62,6 @@
 <!-- Google Analytics End -->
 <% } %>
 
-<%# Baidu Analytics %>
 <% if (theme.baidu_analytics) { %>
 <!-- Baidu Analytics START -->
 <script>
@@ -61,32 +79,19 @@
 <!-- Baidu Analytics End -->
 <% } %>
 
-<%# Tencent Analytics %>
 <% if (theme.tencent_analytics) { %>
 <!-- Tencent Analytics START -->
-<script type="text/javascript" src="https://tajs.qq.com/stats?sId=<%= theme.tencent_analytics %>"
-  charset="UTF-8"></script>
-<!-- Tencent Analytics End -->
-
-<!-- 插入Sentry -->
 <script>
-(function () {
-  if (window.location.hostname === "localhost" || window.location.hostname.startsWith("192.168")) {
-    return;
-  }
-  let hm = document.createElement("script");
-  let s = document.querySelector("script");
-  hm.src = "https://browser.sentry-cdn.com/5.10.2/bundle.min.js";
-  hm.integrity = "sha384-ssBfXiBvlVC7bdA/VX03S88B5MwXQWdnpJRbUYFPgswlOBwETwTp6F3SMUNpo9M9";
-  hm.crossOrigin = "anonymous";
-
-  hm.onload = function () {
-    Sentry.init({ dsn: "https://d4e3bac81c30416fb7b917004fdc2a6f@sentry.io/1864685" });
-  }
-  s.parentNode.insertBefore(hm, s);
-})();
+  (function() {
+    if (window.location.hostname === "localhost" || window.location.hostname.startsWith("192.168")) {
+      return console.log("本地调试");
+    }
+    let s = document.querySelector("script");
+    let hm = document.createElement("script");
+    hm.charset = "UTF-8";
+    hm.src = "https://tajs.qq.com/stats?sId=<%= theme.tencent_analytics %>";
+    s.parentNode.insertBefore(hm, s);
+  })();
 </script>
-<!-- 插入Sentry End -->
-
-
+<!-- Tencent Analytics End -->
 <% } %>
