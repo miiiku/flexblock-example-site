@@ -15,7 +15,9 @@ tags:
 
 **Strong**
 
-`code`
+```js
+console.log("hello");
+```
 
 # H1
 
@@ -48,10 +50,6 @@ tags:
 {% image url="https://qiniu.miiiku.xyz/attach/2019/03/15529735091219953_175322076_H800.jpg" title="hello world" %}
 
 大图
-
-{% image url="https://qiniu.miiiku.xyz/public/image/wide.png" title="large 大小图片" size="large" %}
-
-超大图
 
 {% image url="https://qiniu.miiiku.xyz/public/image/wide.png" title="max 大小图片" size="max" %}
 

@@ -1,25 +1,41 @@
 window.addEventListener("load", function() {
-  const navBtn = document.querySelector(".header-navbar-btn");
+  const navBar = document.querySelector(".navbar");
+  const navBtn = document.querySelector(".navbar-btn");
+  const navBarH = 54;
+
+  const getScrollTop = () => {
+    return window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop;
+  }
+
+  let scroll = getScrollTop();
 
   // mobile nav click
   navBtn.addEventListener("click", function () {
     this.classList.toggle("active");
   });
-  
-  // Fancybox Caption
-  // $('.article-entry').each(function(i){
-  //   $(this).find('img').each(function(){
-  //     if ($(this).parent().hasClass('fancybox')) return;
 
-  //     var alt = this.alt;
+  window.addEventListener("scroll", function (e) {
+    let top = getScrollTop();
+    let dir = top - scroll;
+    
+    if (top > navBarH && !navBar.classList.contains("fixed")) {
+      navBar.classList.add("fixed");
+    }
 
-  //     if (alt && $(this).parents(".waterfall-container").length < 1) $(this).after('<span class="caption">' + alt + '</span>');
+    if (top <= 0 && navBar.classList.contains("fixed")) {
+      navBar.classList.remove("fixed");
+      navBar.classList.remove("visible");
+    }
 
-  //     $(this).wrap('<a href="' + this.src + '" title="' + alt + '" class="fancybox"></a>');
-  //   });
+    if (dir < 0 && navBar.classList.contains("fixed") && !navBar.classList.contains("visible")) {
+      navBar.classList.add("visible");
+    }
 
-  //   $(this).find('.fancybox').each(function(){
-  //     $(this).attr('rel', 'article' + i);
-  //   });
-  // });
-})
+    if (dir > 0 && navBar.classList.contains("fixed") && navBar.classList.contains("visible")) {
+      navBar.classList.remove("visible");
+    }
+    scroll = top;
+  }, {
+    passive: true
+  });
+});
