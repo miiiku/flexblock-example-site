@@ -6,6 +6,7 @@ menu:
   友链: /links
   留言: /messages
   关于: /about
+  アニメ: /anime
 logo: https://qiniu.miiiku.xyz/src/images/logo.png
 banner: https://qiniu.miiiku.xyz/src/images/banner.jpg
 # banner: css/images/banner.jpg
@@ -21,7 +22,7 @@ large_legnth:
 # docs: https://hitokoto.cn/api
 # type: [a, b, c, d, e, f, g]
 hitokoto:
-  enable: true
+  enable: false
   type: a
 
 # valine 评论

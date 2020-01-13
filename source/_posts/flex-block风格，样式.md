@@ -6,6 +6,7 @@ tags:
   - hexo
   - 主题
   - 个人博客
+cover: https://qiniu.miiiku.xyz/src/images/cover-5.jpg
 ---
 
 
@@ -57,6 +58,8 @@ console.log("hello");
 # 插入书签
 
 {% bookmark title="我在这里" link="https://miiiku.xyz" cover="https://qiniu.miiiku.xyz/attach/2019/03/15529735091219953_175322076_H800.jpg" %}
+
+{% bookmark title="一点点小站" link="http://sukoshi.xyz" %}
 
 # 插入画廊
 

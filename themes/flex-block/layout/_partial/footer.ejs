@@ -3,6 +3,23 @@
   <div class="footer-container">
     <p>&copy; <%= date(new Date(), 'YYYY') %> <a href="/" target="_blank"><%= config.author %></a></p>
 
+    <style>
+      .colour-text {
+        display: inline-block;
+        margin: 20px auto;
+        text-align: left;
+        background-image: linear-gradient(to right, deeppink, pink, hotpink, lightpink);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+      }
+    </style>
+    
+    <p class="colour-text">
+      “关于泉前辈，我可以和他约会吗？”
+      <br>
+      “不可以”
+    </p>
+
     <% if (theme.hitokoto && theme.hitokoto.enable) { %>
       <p id="hitokoto"></p>
       <script src="https://v1.hitokoto.cn/?<%= theme.hitokoto.type ? 'c=' + theme.hitokoto.type + '&' : '' %>encode=js&select=%23hitokoto" defer></script>
