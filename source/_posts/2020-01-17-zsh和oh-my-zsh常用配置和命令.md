@@ -6,7 +6,7 @@ categories:
 tags:
 - shell
 - zsh
-cover: https://qiniu.miiiku.xyz/src/images/cover-7.jpg
+cover: https://qiniu.miiiku.xyz/src/images/cover-6.jpg
 ---
 
 
