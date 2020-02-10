@@ -10,7 +10,7 @@ cover: https://qiniu.miiiku.xyz/video/%E7%BE%8E.mp4?vframe/jpg/offset/10
 pageview: 138
 ---
 
- {% dplayer url="https://qiniu.miiiku.xyz/video/%E7%BE%8E.mp4" cover="https://qiniu.miiiku.xyz/video/%E7%BE%8E.mp4?vframe/jpg/offset/10" %} 
+{% dplayer url="https://qiniu.miiiku.xyz/video/%E7%BE%8E.mp4" cover="https://qiniu.miiiku.xyz/video/%E7%BE%8E.mp4?vframe/jpg/offset/10" %} 
 
 
 

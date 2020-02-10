@@ -99,7 +99,7 @@ var transporter = nodemailer.createTransport({
 
 后记：
 
-使用163邮箱还会报上面的错误，后面发现使用其他邮箱不会报错，所有换成gmail，但是不知道为什么163会报错~
+使用163邮箱还会报上面的错误，后面发现使用其他邮箱不会报错，所以换成gmail，但是不知道为什么163会报错~
 
 ```
 openssl s_client -connect smtp.163.com:465
