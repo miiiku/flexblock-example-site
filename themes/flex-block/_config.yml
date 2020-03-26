@@ -2,11 +2,12 @@
 menu:
   首页: /
   # 分类: /categories
-  标签: /tags
+  # 标签: /tags
   友链: /links
   留言: /messages
   关于: /about
   アニメ: /anime
+  INS: /ins
 logo: https://qiniu.miiiku.xyz/src/images/logo.png
 banner: https://qiniu.miiiku.xyz/src/images/banner.jpg
 # banner: css/images/banner.jpg

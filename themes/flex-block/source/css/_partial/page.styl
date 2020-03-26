@@ -27,6 +27,61 @@
       text-decoration: underline
 
 
+// ins container STAET
+.ins-container
+  max-width: 960px
+  margin: auto
+  .ins-loading
+    padding: 20px 0
+  .ins-list
+    width: 100%
+    display: flex
+    flex-wrap: wrap
+    justify-content: start
+
+  .ins-item
+    position relative
+    width: calc(100% / 3 - 20px)
+    min-width: calc(100% / 3 - 20px)
+    max-width: calc(100% / 3 - 20px)
+    margin: 10px
+    flex: 1 0 0
+    cursor: pointer
+
+    &:hover .ins-mask
+      opacity: 1
+
+    .ins-mask
+      display: flex
+      align-items: center
+      justify-content: center
+      position: absolute
+      top: 0
+      left: 0
+      width: 100%
+      height: 100%
+      background-color: rgba(0, 0, 0, 0.3)
+      color: #FFFFFF
+      font-weight: bolder
+      opacity: 0
+      transition: opacity 0.3s ease
+
+    .ins-img
+      width: 100%
+      display: block
+      overflow: hidden
+      padding-bottom: 100%
+
+      img 
+        position: absolute
+        top: 0
+        left: 0
+        width: 100%
+        height: 100%
+        object-fit: cover
+
+// ins container END
+
 // desktop >=768
 @media screen and (min-width: 768px)
   content-container-desktop()
@@ -65,3 +120,14 @@
       margin: 0 8px
       line-height: 1.3
   
+
+  // ins container STAET
+  .ins-container
+    margin: 0 -7px
+    padding: 2px
+    .ins-item
+      width: calc(100% / 3 - 4px)
+      min-width: calc(100% / 3 - 4px)
+      max-width: calc(100% / 3 - 4px)
+      margin: 2px
+  // ins container END

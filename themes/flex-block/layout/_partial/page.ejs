@@ -90,4 +90,13 @@
       </div>
     </article>
   <% } %>
+
+  <% if (page.type === "ins") { %>
+    <article class="content-container next">
+      <div class="ins-container">
+        <div class="ins-list"></div>
+      </div>
+      <%- js('js/ins') %>
+    </article>
+  <% } %>
 </div>

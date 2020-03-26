@@ -1,0 +1,359 @@
+// loading START
+.loading {
+  position: relative;
+  width: 2.5em;
+  height: 2.5em;
+  transform: rotate(165deg);
+  margin: auto
+
+  &:before, &:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: block;
+    width: 0.5em;
+    height: 0.5em;
+    border-radius: 0.25em;
+    transform: translate(-50%, -50%);
+  }
+
+  &:before {
+    animation: before 2s infinite;
+  }
+    
+  &:after {
+    animation: after 2s infinite;
+  }
+}
+
+@keyframes before {
+  0% {
+    width: 0.5em;
+    box-shadow: 1em -0.5em rgba(225, 20, 98, 0.75), -1em 0.5em rgba(111, 202, 220, 0.75);
+  }
+  35% {
+    width: 2.5em;
+    box-shadow: 0 -0.5em rgba(225, 20, 98, 0.75), 0 0.5em rgba(111, 202, 220, 0.75);
+  }
+  70% {
+    width: 0.5em;
+    box-shadow: -1em -0.5em rgba(225, 20, 98, 0.75), 1em 0.5em rgba(111, 202, 220, 0.75);
+  }
+  100% {
+    box-shadow: 1em -0.5em rgba(225, 20, 98, 0.75), -1em 0.5em rgba(111, 202, 220, 0.75);
+  }
+}
+
+@keyframes after {
+  0% {
+    height: 0.5em;
+    box-shadow: 0.5em 1em rgba(61, 184, 143, 0.75), -0.5em -1em rgba(233, 169, 32, 0.75);
+  }
+  35% {
+    height: 2.5em;
+    box-shadow: 0.5em 0 rgba(61, 184, 143, 0.75), -0.5em 0 rgba(233, 169, 32, 0.75);
+  }
+  70% {
+    height: 0.5em;
+    box-shadow: 0.5em -1em rgba(61, 184, 143, 0.75), -0.5em 1em rgba(233, 169, 32, 0.75);
+  }
+  100% {
+    box-shadow: 0.5em 1em rgba(61, 184, 143, 0.75), -0.5em -1em rgba(233, 169, 32, 0.75);
+  }
+}
+// loading END
+
+// ins modal STAET
+.ins-modal-mask {
+  position: fixed
+  top: 0
+  left: 0
+  width: 100%
+  height: 100%
+  background-color: rgba(#ffffff, 0.8)
+  z-index 100
+
+  &.show {
+    will-change: show-ins-mask
+    animation show-ins-mask 0.5s forwards;
+
+    .ins-modal-container {
+      will-change: show-ins-modal
+      animation show-ins-modal 0.5s forwards;
+    }
+  }
+
+  &.hide {
+    will-change: hide-ins-mask
+    animation hide-ins-mask 0.5s forwards;
+
+    .ins-modal-container {
+      will-change: hide-ins-modal
+      animation hide-ins-modal 0.5s forwards;
+    }
+  }
+}
+
+.ins-modal-container {
+  display: flex
+  position: absolute
+  top: 50%
+  left: 50%
+  width: 80%
+  height: 80%
+  background-color: #ffffff
+  transform: translate(-50%, -50%)
+  overflow: hidden
+  border-radius: 8px
+  box-shadow: 0 0 14px rgba(#000000, 0.3)
+
+  .ins-close {
+    position: absolute
+    z-index: 2
+    right: 10px
+    top: 10px
+
+    i.icon-close {
+      cursor: pointer
+      display: block
+      width: 32px
+      height: 32px
+      background-repeat: no-repeat
+      background-size: 80%
+      background-position: center
+      background-image: url("../images/关闭.svg")
+      transition: all 0.3s ease
+
+      &:hover {
+        transform: rotate(180deg)
+      }
+    }
+  }
+
+  .ins-photo {
+    position: relative
+
+    .ins-loading-modal {
+      position: absolute
+      top: 0
+      left: 0
+      width: 100%
+      height: 100%
+      display: flex;
+      justify-content: center;
+      align-items: center
+    }
+
+    img {
+      display: block
+      width: 100%
+      height: 100%
+      object-fit: contain
+    }
+  }
+
+  .ins-info {
+    flex: 1
+    display: flex
+    flex-direction: column
+    border-left: 1px solid #efefef
+  }
+
+  .info-text {
+    border-bottom: 1px solid #efefef
+    
+    .info-title {
+      font-size: 26px
+      color: #111111
+      padding-bottom: 8px
+      overflow: hidden
+      text-overflow: ellipsis
+      white-space: nowrap
+    }
+    
+    .info-time {
+      font-size: 14px
+      color: #999999
+    }
+  }
+
+  .info-other {
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    flex: 1
+    overflow: auto
+  }
+
+  .info-devices {
+    display: flex
+    flex-direction: column
+    justify-content: space-evenly
+    align-items: flex-start
+
+    .device-item {
+      display: flex
+      align-items: center
+      justify-content: center
+      width: 100%
+      margin: 10px 0
+    }
+
+    .device-label {
+      flex: 1 1 100px
+    }
+
+    .device-value {
+      color: #cccccc
+      width: 100px
+    }
+
+    i.device-icon {
+      display: block
+      vertical-align: sub
+      width: 42px
+      height: 42px
+      margin-right: 10px
+      background-repeat: no-repeat
+      background-size: 80%
+      background-position: center
+
+      &.icon-sb {
+        background-image: url("../images/相机.svg")
+      }
+      &.icon-jt {
+        background-image: url("../images/镜头.svg")
+      }
+      &.icon-gq {
+        background-image: url("../images/光圈.svg")
+      }
+      &.icon-iso {
+        background-image: url("../images/iso.svg")
+      }
+    }
+  }
+
+  .info-map {
+    overflow: hidden
+
+    i.map-icon {
+      display: block
+      width: 42px
+      height: 42px
+      margin-left: 20px
+      margin-right: 10px
+      background-repeat: no-repeat
+      background-size: 80%
+      background-position: center
+      background-image: url("../images/地图.svg")
+    }
+
+    .map-image img {
+      display: block
+      width: 100%
+    }
+  }
+}
+
+@keyframes show-ins-mask {
+  from {
+    opacity: 0
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
+@keyframes hide-ins-mask {
+  from {
+    opacity: 1
+  }
+
+  to {
+    opacity: 0
+  }
+}
+
+@keyframes show-ins-modal {
+  0% {
+    transform: translate(-50%, -50%) scale(0.4)
+    opacity: 0.4
+  }
+
+  60% {
+    transform: translate(-50%, -50%) scale(1.1)
+    opacity: 1
+  }
+
+  100% {
+    transform: translate(-50%, -50%) scale(1)
+    opacity: 1
+  }
+}
+
+@keyframes hide-ins-modal {
+  0% {
+    transform: translate(-50%, -50%) scale(1)
+    opacity: 1
+    filter: blur(0)
+  }
+
+  20% {
+    transform: translate(-50%, -50%) scale(1.1)
+    opacity: 1
+    filter: blur(0)
+  }
+
+  100% {
+    transform: translate(-50%, -50%) scale(0.3)
+    opacity: 0.4
+    filter: blur(10px)
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .ins-modal-container {
+    .ins-photo {
+      width: 56%
+      min-width: 56%
+    }
+
+    .ins-info {
+      width: 44%
+    }
+
+    .info-text {
+      padding: 15px 52px 15px 20px
+    }
+
+    .info-devices {
+      padding: 20px
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .ins-modal-container {
+    flex-direction: column
+
+    .ins-photo {
+      width: 100%
+    }
+
+    .ins-info {
+      width: 100%
+      height: 1px
+    }
+
+    .info-text {
+      padding: 10px
+    }
+
+    .info-devices {
+      padding: 10px
+    }
+  }
+}
+// ins modal END
