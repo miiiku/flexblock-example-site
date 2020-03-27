@@ -141,31 +141,30 @@ class InsModal {
               <time class="info-time"></time>
             </div>
             <div class="info-other">
-              <div class="info-devices">
-                <div class="device-item device-sb">
-                  <i class="icon-sb device-icon"></i>
-                  <p class="device-label">Make:</p>
-                  <p class="device-value"></p>
+              <div class="info-other-flex">
+                <div class="info-devices">
+                  <div class="device-item device-sb">
+                    <i class="icon-sb device-icon"></i>
+                    <p class="device-label">Make:</p>
+                    <p class="device-value"></p>
+                  </div>
+                  <div class="device-item device-jt">
+                    <i class="icon-jt device-icon"></i>
+                    <p class="device-label">FocalLength:</p>
+                    <p class="device-value"></p>
+                  </div>
+                  <div class="device-item device-gq">
+                    <i class="icon-gq device-icon"></i>
+                    <p class="device-label">FNumber:</p>
+                    <p class="device-value"></p>
+                  </div>
+                  <div class="device-item device-iso">
+                    <i class="icon-iso device-icon"></i>
+                    <p class="device-label">ISOSpeedRatings:</p>
+                    <p class="device-value"></p>
+                  </div>
                 </div>
-                <div class="device-item device-jt">
-                  <i class="icon-jt device-icon"></i>
-                  <p class="device-label">FocalLength:</p>
-                  <p class="device-value"></p>
-                </div>
-                <div class="device-item device-gq">
-                  <i class="icon-gq device-icon"></i>
-                  <p class="device-label">FNumber:</p>
-                  <p class="device-value"></p>
-                </div>
-                <div class="device-item device-iso">
-                  <i class="icon-iso device-icon"></i>
-                  <p class="device-label">ISOSpeedRatings:</p>
-                  <p class="device-value"></p>
-                </div>
-              </div>
-              <div class="info-map">
-                <!-- <i class="icon-map map-icon"></i> -->
-                <div class="map-image">
+                <div class="info-map">
                   <img src="" alt="位置信息">
                 </div>
               </div>
@@ -192,7 +191,7 @@ class InsModal {
     this.deviceGQ     = this.insModalContainer.querySelector(".device-gq .device-value")
     this.deviceISO    = this.insModalContainer.querySelector(".device-iso .device-value")
     this.mapBox       = this.insModalContainer.querySelector(".info-map")
-    this.mapImage     = this.insModalContainer.querySelector(".map-image img")
+    this.mapImage     = this.insModalContainer.querySelector(".info-map img")
 
     this.insModalMask.addEventListener("animationend", event => {
       if (event.animationName == "hide-ins-mask") {

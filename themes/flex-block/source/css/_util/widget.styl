@@ -164,7 +164,6 @@
     border-bottom: 1px solid #efefef
     
     .info-title {
-      font-size: 26px
       color: #111111
       padding-bottom: 8px
       overflow: hidden
@@ -173,20 +172,24 @@
     }
     
     .info-time {
-      font-size: 14px
       color: #999999
     }
   }
 
   .info-other {
-    display: flex
-    flex-direction: column
-    justify-content: space-between
     flex: 1
     overflow: auto
+
+    .info-other-flex {
+      min-height: 100%
+      display: flex
+      flex-direction: column
+      justify-content: space-between
+    }
   }
 
   .info-devices {
+    flex: 1
     display: flex
     flex-direction: column
     justify-content: space-evenly
@@ -206,7 +209,8 @@
 
     .device-value {
       color: #cccccc
-      width: 100px
+      width: 90px
+      padding-left: 10px
     }
 
     i.device-icon {
@@ -237,19 +241,7 @@
   .info-map {
     overflow: hidden
 
-    i.map-icon {
-      display: block
-      width: 42px
-      height: 42px
-      margin-left: 20px
-      margin-right: 10px
-      background-repeat: no-repeat
-      background-size: 80%
-      background-position: center
-      background-image: url("../images/地图.svg")
-    }
-
-    .map-image img {
+    img {
       display: block
       width: 100%
     }
@@ -326,6 +318,14 @@
 
     .info-text {
       padding: 15px 52px 15px 20px
+      
+      .info-title {
+        font-size: 26px
+      }
+
+      .info-time {
+        font-size: 14px
+      }
     }
 
     .info-devices {
@@ -340,6 +340,8 @@
 
     .ins-photo {
       width: 100%
+      height 50%
+      max-height: 50%
     }
 
     .ins-info {
@@ -349,6 +351,14 @@
 
     .info-text {
       padding: 10px
+      
+      .info-title {
+        font-size: 18px
+      }
+
+      .info-time {
+        font-size: 12px
+      }
     }
 
     .info-devices {

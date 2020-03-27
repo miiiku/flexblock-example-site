@@ -3,7 +3,7 @@ title: I N S
 subtitle: 我jio得こい
 date: 2020-03-21 10:14:37
 type: ins
-cover: https://qiniu.miiiku.xyz/attach/2019/03/20190303_060032493_iOS.jpg-webp
+cover: https://qiniu.miiiku.xyz/attach/2019/03/20190303_060032493_iOS.jpg
 ---
 
 
