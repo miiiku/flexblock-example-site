@@ -41,7 +41,7 @@ valine:
   pageSize: 10
 
 disqus:
-  enable: true
+  enable: false
   website: sukoshi95
   error: 如果你看不到评论，那么就真的看不到评论 w(゜Д゜)w
 
@@ -81,11 +81,11 @@ archive_type: 'monthly'
 show_count: false
 
 # beian
-beian: 蜀ICP备15014309号
+# beian: 蜀ICP备15014309号
 
 # Miscellaneous
 google_analytics: 
 gauges_analytics: 
-baidu_analytics: 410f4beade12e8df64ea4c5622313220
-tencent_analytics: 64852535
+baidu_analytics: 77cce6624f1114785af5e77d00cbf93c
+tencent_analytics: 66537616
 favicon: /favicon.ico
