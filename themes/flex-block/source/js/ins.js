@@ -111,10 +111,18 @@ function loadInsList(error, success, done) {
 
 class InsModal {
   constructor() {
+    this.isShow = false
+    this.imageInfo = null
+    this.VW = window.innerWidth
+    this.VH = window.innerHeight
     this.insModalMask = this.createInsModalDOM()
     this.insModalContainer = this.insModalMask.querySelector(".ins-modal-container")
     this.initSelfDOM()
     document.body.appendChild(this.insModalMask)
+    // window.addEventListener("resize", () => {
+    //   if (!this.isShow) return
+    //   this.initWH()
+    // })
   }
 
   createInsModalDOM() {
@@ -181,6 +189,7 @@ class InsModal {
   initSelfDOM() {
     this.insClose     = this.insModalContainer.querySelector(".ins-close")
     this.insLoading   = this.insModalContainer.querySelector(".ins-loading-modal")
+    this.insImageBox  = this.insModalContainer.querySelector(".ins-photo")
     this.insImageLink = this.insModalContainer.querySelector(".ins-photo a")
     this.insImageHigh = this.insModalContainer.querySelector(".ins-photo source")
     this.insImage     = this.insModalContainer.querySelector(".ins-photo img")
@@ -203,6 +212,7 @@ class InsModal {
     this.insClose.addEventListener("click", () => {
       this.insModalMask.classList.remove("show")
       this.insModalMask.classList.add("hide")
+      this.isShow = false
     })
 
     this.insImage.addEventListener("load", () => {
@@ -211,13 +221,15 @@ class InsModal {
   }
 
   loadInsImg(image) {
+    this.isShow = true
+    this.imageInfo = image
     document.body.style.overflow = "hidden"
     this.insLoading.style.display = "flex"
     this.insImageHigh.srcset = image.key + "-webp"
     this.insImageLink.href = image.key
     this.insImage.src = image.key
     this.insImage.alt = image.key
-    this.insTitle.innerText = image.name
+    this.insTitle.innerText =  image.name.toLocaleUpperCase()
     this.insTime.innerText = this.formatTime(image.putTime)
     this.deviceSB.innerText = this.objGet(image, ['exif', 'Make', 'val'], '--')
     this.deviceJT.innerText = this.objGet(image, ['exif', 'FocalLength', 'val'], '--')
@@ -233,6 +245,7 @@ class InsModal {
     this.insModalMask.classList.remove("hide")
     this.insModalMask.classList.add("show")
     this.insModalMask.style.display = "block"
+    // this.initWH()
     return this
   }
 
@@ -248,6 +261,30 @@ class InsModal {
   formatTime(time) {
     let dateTime = new Date(Number(time.toString().substring(0, 13)))
     return `${dateTime.getFullYear()}年${dateTime.getMonth() + 1}月${dateTime.getDate()}日`
+  }
+
+  initWH() {
+    if (this.VW <= 767) return
+    let w = this.imageInfo.width
+    let h = this.imageInfo.height
+    let maxW = (this.VW * 0.8 * 0.6).toFixed(4)
+    let maxH = (this.VH * 0.8).toFixed(4)
+    let ratio = 1
+
+    if (maxW > maxH) {
+      ratio = (maxH / h).toFixed(4)
+    }
+
+    if (maxW < maxH) {
+      ratio = (maxW / w).toFixed(4)
+    }
+
+    let ratioW = (w * ratio).toFixed(4)
+    let ratioH = (h * ratio).toFixed(4)
+    if (ratioW > maxW || ratioH > maxH) return
+    this.insModalContainer.style.height = ratioH + "px"
+    this.insImageBox.style.width = ratioW + "px"
+    this.insImageBox.style.height = ratioH + "px"
   }
 
   static getInstance(image, loadenSrc) {
