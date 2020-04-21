@@ -1,45 +1,55 @@
 // 其次的页面内容容器
-.content-container.next
+.content-container.next {
   min-height: auto
+}
 
 // 文章标签列表
-.article-footer .article-tag-list
+.article-footer .article-tag-list {
   display: flex
   flex-wrap: wrap
 
-  a
+  a {
     display: block
     color: #999999
     margin-right: 10px
     margin-bottom: 10px
 
-    &:hover
+    &:hover {
       color: #555555
+    }
+  }
+}
 
 // 云标签样式
-.tags-cloud
+.tags-cloud {
   text-align: center
   
-  a
+  a {
     display: inline-block
 
-    &:hover
+    &:hover {
       text-decoration: underline
-
+    }
+  }
+}
 
 // ins container STAET
-.ins-container
+.ins-container {
   max-width: 960px
   margin: auto
-  .ins-loading
+
+  .ins-loading {
     padding: 20px 0
-  .ins-list
+  }
+
+  .ins-list {
     width: 100%
     display: flex
     flex-wrap: wrap
     justify-content: start
+  }
 
-  .ins-item
+  .ins-item {
     position relative
     width: calc(100% / 3 - 20px)
     min-width: calc(100% / 3 - 20px)
@@ -48,10 +58,11 @@
     flex: 1 0 0
     cursor: pointer
 
-    &:hover .ins-mask
+    &:hover .ins-mask {
       opacity: 1
+    }
 
-    .ins-mask
+    .ins-mask {
       display: flex
       align-items: center
       justify-content: center
@@ -65,69 +76,89 @@
       font-weight: bolder
       opacity: 0
       transition: opacity 0.3s ease
+    }
 
-    .ins-img
+    .ins-img {
       width: 100%
       display: block
       overflow: hidden
       padding-bottom: 100%
 
-      img 
+      img {
         position: absolute
         top: 0
         left: 0
         width: 100%
         height: 100%
         object-fit: cover
-
+      }
+    }
+  }
+}
 // ins container END
 
 // desktop >=768
-@media screen and (min-width: 768px)
+@media screen and (min-width: 768px) {
   content-container-desktop()
   
-  .article-content
+  .article-content {
     width: inner-width
     max-width: 100%
     padding: inner-padding;
     margin: auto
-    & > div:not(:first-child)
+    
+    & > div:not(:first-child) {
       margin-top: 20px
+    }
+  }
 
-  .tags-cloud
+  .tags-cloud {
     font-size: font-desktop-commonly
-    a
+    a {
       margin: 0 20px
       line-height: 2
+    }
+  }
+}
 
 // mobile 768<
-@media screen and (max-width: 767px)
+@media screen and (max-width: 767px) {
   content-container-mobile()
   
-  .article-content
+  .article-content {
     width: 100%
     padding: inner-padding;
     margin: auto
-    & > div:not(:first-child)
-      margin-top: 10px
 
-    .article-navs .article-nav-title
+    & > div:not(:first-child) {
+      margin-top: 10px
+    }
+
+    .article-navs .article-nav-title {
       font-size: font-mobile-commonly
-  
-  .tags-cloud
+    }
+  }
+
+  .tags-cloud {
     font-size: font-mobile-commonly
-    a
+
+    a {
       margin: 0 8px
       line-height: 1.3
-  
+    }
+  }
 
   // ins container STAET
-  .ins-container
+  .ins-container {
     margin: 0 -7px
     padding: 2px
-    .ins-item
+
+    .ins-item {
       width: calc(100% / 3 - 4px)
       min-width: calc(100% / 3 - 4px)
       max-width: calc(100% / 3 - 4px)
       margin: 2px
+    }
+  }
   // ins container END
+}

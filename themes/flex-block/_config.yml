@@ -41,7 +41,7 @@ valine:
   pageSize: 10
 
 disqus:
-  enable: false
+  enable: true
   website: sukoshi95
   error: 如果你看不到评论，那么就真的看不到评论 w(゜Д゜)w
 
@@ -89,3 +89,19 @@ gauges_analytics:
 baidu_analytics: 77cce6624f1114785af5e77d00cbf93c
 tencent_analytics: 66537616
 favicon: /favicon.ico
+
+
+# Social Icon
+social_icon:
+  header_enable: true
+  footer_enable: true
+  icons:
+    - { type: twitter,    value: https://twitter.com/guanquanhong}
+    - { type: ins,        value: https://www.instagram.com/sukoshi_dayo/}
+    - { type: weibo,      value: https://weibo.com/5561168966/profile?rightmod=1&wvr=6&mod=personinfo}
+    - { type: github,     value: https://github.com/miiiku/}
+    - { type: zhihu,      value: }
+    - { type: email,      value: }
+    - { type: google+,    value: }
+    - { type: youtube,    value: }
+    - { type: cloudmusic, value: }

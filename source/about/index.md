@@ -2,7 +2,7 @@
 title: 关于
 subtitle: 想了解我点的什么？
 date: 2019-02-21 19:13:16
-cover: https://qiniu.miiiku.xyz/src/images/banner-2.jpg
+cover: https://qiniu.miiiku.xyz/src/images/banner-5.jpg
 ---
 
 ## 挖塔西
