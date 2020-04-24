@@ -1,7 +1,7 @@
 title: 小伙伴
 date: 2019-03-05 14:12:17
 type: links
-cover: https://qiniu.miiiku.xyz/src/images/banner-3.jpg
+cover: https://cloud.miiiku.xyz/src/images/banner-3.jpg-compress
 ---
 
 #### 可爱又迷人的小伙伴们

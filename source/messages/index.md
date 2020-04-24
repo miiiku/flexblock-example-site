@@ -3,7 +3,7 @@ title: 留言板
 subtitle: 友善的评论是交流的起点
 date: 2019-03-11 19:51:43
 type: messages
-cover: https://qiniu.miiiku.xyz/src/images/banner-2.jpg
+cover: https://cloud.miiiku.xyz/src/images/banner-2.jpg-compress
 ---
 
 决定关闭网站文章的评论功能，感觉用到的很少很少，最多的还是输出记录，所以决定删除文章内部的评论功能仅保留留言板的评论功能，目前觉得足够了。

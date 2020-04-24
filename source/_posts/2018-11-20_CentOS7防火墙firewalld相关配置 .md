@@ -5,7 +5,7 @@ categories:
 - 笔记
 tags:
 - centos
-cover: 
+cover: https://cloud.miiiku.xyz/src/images/cover/cover-08.jpg
 pageview: 120
 ---
 

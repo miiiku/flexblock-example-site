@@ -6,7 +6,7 @@ categories:
 tags:
 - html
 - js
-cover: 
+cover: https://cloud.miiiku.xyz/src/images/cover/cover-10.jpg
 pageview: 276
 ---
 

@@ -5,6 +5,7 @@ categories:
 - 笔记
 tags:
 - js
+cover: https://cloud.miiiku.xyz/src/images/cover/cover-07.jpg
 ---
 
 

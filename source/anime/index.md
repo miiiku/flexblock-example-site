@@ -2,7 +2,7 @@
 title: アニメ
 subtitle: 一些好看的番剧
 date: 2020-01-13 13:56:46
-cover: https://qiniu.miiiku.xyz/src/images/banner-4.jpg
+cover: https://cloud.miiiku.xyz/src/images/banner-4.jpg-compress
 ---
 
 

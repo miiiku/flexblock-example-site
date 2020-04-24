@@ -6,7 +6,7 @@ tags:
   - hexo
   - 主题
   - 个人博客
-cover: https://qiniu.miiiku.xyz/src/images/cover-5.jpg
+cover: https://cloud.miiiku.xyz/src/images/cover/cover-05.jpg
 ---
 
 
