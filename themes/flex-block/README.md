@@ -40,7 +40,7 @@
 
 * 更新了 **[waterfall](#waterfall-瀑布流)** (画廊)标签 可设置大小
 
-* 新增 **[iamge](#插入图片-image)** (图片), **[bookmark](#插入书签-bookmark)** (书签), **[aplayer](#插入视频-aplayer)** 音频播放 标签
+* 新增 **[iamge](#插入图片-image)** (图片), **[bookmark](#插入书签-bookmark)** (书签), **[aplayer](#插入音频-aplayer)** 音频播放 标签
 
 # 变动
 

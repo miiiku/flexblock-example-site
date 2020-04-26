@@ -16,6 +16,10 @@
         autoplay: <%= theme.dplayer.autoplay %>,
         loop: <%= theme.dplayer.loop %>,
         mutex: <%= theme.dplayer.mutex %>,
+        subtitle: {
+          url: el.dataset.subtitle_url || "",
+          type: el.dataset.subtitle_type || "webvtt"
+        }
       });
     });
   }
