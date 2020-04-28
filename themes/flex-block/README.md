@@ -23,6 +23,8 @@
 
 * 添加`返回到顶部`按钮
 
+* 添加水平居中标签 [center](#水平居中-center)
+
 #### 2020.01
 
 
@@ -342,7 +344,7 @@ hitokoto:
 ## 插入视频 dplayer
 
 ``` markdown
-<!-- url 必填 cover 可选 -->
+<!-- url 必填 cover(封面) 可选 subtitle(字幕) 可选 -->
 {% dplayer url="https://qiniu.miiiku.xyz/video/%E7%BE%8E.mp4" cover="https://qiniu.miiiku.xyz/video/%E7%BE%8E.mp4?vframe/jpg/offset/10" %} 
 ```
 
@@ -371,6 +373,16 @@ hitokoto:
 ```
 
 **注意: 需要开启`waterfall`插件才能正常使用本内置标签**
+
+## 水平居中 center
+
+使center标签内的内容水平居中
+
+``` markdown
+{% center %}
+...
+{% endcenter %}
+```
 
 ## 插入书签 bookmark
 
