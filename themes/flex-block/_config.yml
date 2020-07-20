@@ -1,23 +1,16 @@
 # Header
 menu:
   首页: /
-  # 分类: /categories
-  # 标签: /tags
   友链: /links
   留言: /messages
   关于: /about
   アニメ: /anime
-  INS: /ins
-logo: https://qiniu.miiiku.xyz/src/images/logo.png
+# logo: https://qiniu.miiiku.xyz/src/images/logo.png
 banner: https://cloud.miiiku.xyz/src/images/banner-6.jpg-compress
 # banner: css/images/banner.jpg
 
 # large cover
-# long: [article, link]
-# short: [category, tag]
-large_legnth:
-  long: 20
-  short: 5
+large_legnth: 20
 
 # 一言
 # docs: https://hitokoto.cn/api
@@ -81,7 +74,7 @@ archive_type: 'monthly'
 show_count: false
 
 # beian
-# beian: 蜀ICP备15014309号
+beian: 蜀ICP备15014309号
 
 # Miscellaneous
 google_analytics: UA-165681463-1
@@ -96,10 +89,10 @@ social_icon:
   header_enable: true
   footer_enable: true
   icons:
-    - { type: twitter,    value: https://twitter.com/guanquanhong}
-    - { type: ins,        value: https://www.instagram.com/sukoshi_dayo/}
-    - { type: weibo,      value: https://weibo.com/5561168966/profile?rightmod=1&wvr=6&mod=personinfo}
-    - { type: github,     value: https://github.com/miiiku/}
+    - { type: twitter,    value: https://twitter.com/guanquanhong }
+    - { type: weibo,      value: https://weibo.com/5561168966/profile?rightmod=1&wvr=6&mod=personinfo }
+    - { type: github,     value: https://github.com/miiiku/ }
+    - { type: ins,        value: }
     - { type: zhihu,      value: }
     - { type: email,      value: }
     - { type: google+,    value: }

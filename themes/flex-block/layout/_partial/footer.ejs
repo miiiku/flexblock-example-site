@@ -14,21 +14,6 @@
     <% } %> 
     <p>&copy; <%= date(new Date(), 'YYYY') %> <a href="/" target="_blank"><%= config.author %></a></p>
 
-    <style>
-      .colour-text {
-        display: inline-block;
-        margin: 20px auto;
-        text-align: left;
-        background-image: linear-gradient(to right, deeppink, pink, hotpink, lightpink, deeppink);
-        -webkit-text-fill-color: transparent;
-        -webkit-background-clip: text;
-      }
-    </style>
-    
-    <p class="colour-text">
-      “关于泉前辈，我可以和他约会吗？” “不可以”
-    </p>
-
     <% if (theme.hitokoto && theme.hitokoto.enable) { %>
       <p id="hitokoto"></p>
       <script src="https://v1.hitokoto.cn/?<%= theme.hitokoto.type ? 'c=' + theme.hitokoto.type + '&' : '' %>encode=js&select=%23hitokoto" defer></script>
@@ -39,5 +24,15 @@
     <% } %>
 
     <p>Powered by <a href="https://hexo.io" target="_blank" rel="noopener noreferrer">Hexo</a> Theme - <a href="https://github.com/miiiku/flex-block" target="_blank" rel="noopener noreferrer author">flex-block</a></p>
+    
+    <!--
+    <div class="footer-container__texts">
+      <p>ヽ｀、ヽ｀｀、ヽ｀ヽ｀、、ヽ｀ヽ、ヽ｀、ヽ｀｀、ヽ、｀｀、、ヽ｀ヽ、｀｀、、ヽ｀ヽ、｀ヽ、｀ヽ、｀ヽ</p>
+      <p>｀、ヽ｀｀、ヽ、｀｀｀、｀、ヽ🌙｀｀、｀ヽ｀ヽ、ヽ｀、ヽ｀ヽ、ヽ｀、ヽ｀ヽ、ヽ｀、ヽ｀｀、｀ヽ、｀</p>
+      <p>｀、｀｀、｀、ヽ｀｀、、ヽヽ｀、｀ヽ｀ヽ、ヽ｀、ヽ｀ヽ、ヽ｀、、、ヽヽ、｀｀、、ヽ｀、ヽ｀｀、ヽ｀ヽ｀</p>
+      <p>ヽ｀、｀｀、｀、ヽ｀｀、、ヽヽ｀、｀、、ヽヽ、｀Time waits for on one 🍓｀、、ヽ｀、ヽ｀｀、ヽ｀ヽ｀</p>
+      <p>｀ヽ｀｀、ヽ｀ヽ｀、、ヽ｀ヽ｀ヽ｀ヽ、ヽ｀、ヽ｀｀、ヽ、｀｀、、ヽ｀ヽ、｀｀、、ヽ｀ヽ、｀ヽ、｀ヽ、｀ヽ</p>
+    </div>
+    -->
   </div>
 </footer>

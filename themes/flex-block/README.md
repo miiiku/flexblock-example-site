@@ -7,13 +7,19 @@
 
 # 预览
 
-![cover1](https://cdn.jsdelivr.net/gh/miiiku/flex-block/img/blog1.png)
+![cover1](./img/flex-block-1.png)
 
-![cover2](https://cdn.jsdelivr.net/gh/miiiku/flex-block/img/blog2.png)
-
-![cover3](https://cdn.jsdelivr.net/gh/miiiku/flex-block/img/blog3.png)
+![cover2](./img/flex-block-2.png)
 
 # 更新
+
+#### 2020.07
+
+* 添加主题模式(暂不支持手动切换，根据系统自动切换)
+
+* 删除 **分类**，**标签** 页面
+
+* UI部分更新
 
 #### 2020.04
 
@@ -182,7 +188,7 @@ highlight:
   theme: monokai
 ```
 
-其中`enable`为开启代码高亮，`hljs`设置为hljs为class，`theme`为highlight代码高亮主题，不设置默认为default
+其中`enable`为开启代码高亮，`hljs`设置为hljs为class，`theme`为highlight代码高亮主题，不设置默认为monokai
 
 具体的主题可以在[https://highlightjs.org/](https://highlightjs.org/)查看
 
@@ -192,20 +198,10 @@ highlight:
 
 ``` yml
 # large cover
-# long: [article, link]
-# short: [category, tag]
-large_legnth:
-  long: 20
-  short: 5
+large_legnth: 20
 ```
 
-**long:** 作用于`文章`和`友链`卡片
-
-**short:** 作用于`分类`和`标签`卡片
-
-设置Card封面的大小，如 `long: 20` 表示如果文章标题长度大于20，文章卡片显示为长文章
-
-*如果启用了友链，则会判断`友链名称`和`友链描述`两个字段长度*
+设置Card封面的大小，如 `large_legnth: 20` 表示如果文章标题长度大于20，文章卡片显示为长文章
 
 ## aplayer
 
@@ -321,7 +317,7 @@ disqus:
 # docs: https://hitokoto.cn/api
 # type: [a, b, c, d, e, f, g]
 hitokoto:
-  enable: false
+  enable: true
   type: a
 ```
 
