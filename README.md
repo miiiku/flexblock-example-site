@@ -4,4 +4,4 @@
 
 ### 一个基于Hexo的个人博客
 
-### [https://miiiku.xyz](https://miiiku.xyz)
+### [https://sukoshi.xyz](https://sukoshi.xyz)
