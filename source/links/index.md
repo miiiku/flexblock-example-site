@@ -27,6 +27,6 @@ cover: https://cloud.miiiku.xyz/src/images/banner-3.jpg-compress
 
 站点地址 | https://sukoshi.xyz
 
-站点描述 | 十八岁基层程序猿想做涩影狮 
+站点描述 | 十八岁菜鸡程序猿想做涩影狮 
 
 站点图标 | https://s.gravatar.com/avatar/2d6b803eea37de0257620d5fabee7e64?s=200&r=g&d=retro
