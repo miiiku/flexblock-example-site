@@ -6,11 +6,11 @@ categories:
 tags:
 - mv
 - v家
-cover: https://qiniu.miiiku.xyz/video/DECO27%20-%20%E6%84%9B%E8%A8%80%E8%91%89%E2%85%A2%20feat.%20%E5%88%9D%E9%9F%B3%E3%83%9F%E3%82%AF.mp4?vframe/jpg/offset/10
+cover: https://qiniu.sukoshi.xyz/video/DECO27%20-%20%E6%84%9B%E8%A8%80%E8%91%89%E2%85%A2%20feat.%20%E5%88%9D%E9%9F%B3%E3%83%9F%E3%82%AF.mp4?vframe/jpg/offset/10
 pageview: 134
 ---
 
- {% dplayer url="https://qiniu.miiiku.xyz/video/DECO27%20-%20%E6%84%9B%E8%A8%80%E8%91%89%E2%85%A2%20feat.%20%E5%88%9D%E9%9F%B3%E3%83%9F%E3%82%AF.mp4" cover="https://qiniu.miiiku.xyz/video/DECO27%20-%20%E6%84%9B%E8%A8%80%E8%91%89%E2%85%A2%20feat.%20%E5%88%9D%E9%9F%B3%E3%83%9F%E3%82%AF.mp4?vframe/jpg/offset/10" %} 
+ {% dplayer url="https://qiniu.sukoshi.xyz/video/DECO27%20-%20%E6%84%9B%E8%A8%80%E8%91%89%E2%85%A2%20feat.%20%E5%88%9D%E9%9F%B3%E3%83%9F%E3%82%AF.mp4" cover="https://qiniu.sukoshi.xyz/video/DECO27%20-%20%E6%84%9B%E8%A8%80%E8%91%89%E2%85%A2%20feat.%20%E5%88%9D%E9%9F%B3%E3%83%9F%E3%82%AF.mp4?vframe/jpg/offset/10" %} 
 
 
 

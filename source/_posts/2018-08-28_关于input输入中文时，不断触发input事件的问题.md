@@ -12,7 +12,7 @@ pageview: 276
 
 监听一个文本框的*input*事件的时候，当输入中文但未实际填充到文本框还在候选时，也会一直触发*input*事件，如图：(搬运原文图片)
 
-![https://qiniu.miiiku.xyz/attach/2018-08/1069543-20171009211759324-6471773.gif](https://qiniu.miiiku.xyz/attach/2018-08/1069543-20171009211759324-6471773.gif)
+![https://qiniu.sukoshi.xyz/attach/2018-08/1069543-20171009211759324-6471773.gif](https://qiniu.sukoshi.xyz/attach/2018-08/1069543-20171009211759324-6471773.gif)
 
 *compositionstart*  事件触发于一段文字的输入之前（类似于 keydown 事件，但是该事件仅在若干可见字符的输入之前，而这些可见字符的输入可能需要一连串的键盘操作、语音识别或者点击输入法的备选词）
 
@@ -45,7 +45,7 @@ pageview: 276
     })
 ```
 
-![https://qiniu.miiiku.xyz/attach/2018-08/1069543-20171009211830262-1175113284.gif](https://qiniu.miiiku.xyz/attach/2018-08/1069543-20171009211830262-1175113284.gif)
+![https://qiniu.sukoshi.xyz/attach/2018-08/1069543-20171009211830262-1175113284.gif](https://qiniu.sukoshi.xyz/attach/2018-08/1069543-20171009211830262-1175113284.gif)
 
 ##### tips:
 

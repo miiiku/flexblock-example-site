@@ -7,7 +7,7 @@ tags:
 - Mac
 - zsh
 - 终端
-cover: https://qiniu.miiiku.xyz/attach/2018-08/0A7F3652-1493-43E1-849A-F2F082B66E76.png
+cover: https://qiniu.sukoshi.xyz/attach/2018-08/0A7F3652-1493-43E1-849A-F2F082B66E76.png
 pageview: 316
 ---
 
@@ -22,7 +22,7 @@ Mac下默认的bash终端使用久了，感觉很多地方都不方便，所以�
 cat /etc/shells
 ```
 我这里显示如下:
-![https://qiniu.miiiku.xyz/attach/2018-08/85454CBE-87E0-4078-B1B4-0E8743A8302C.png](https://qiniu.miiiku.xyz/attach/2018-08/85454CBE-87E0-4078-B1B4-0E8743A8302C.png)
+![https://qiniu.sukoshi.xyz/attach/2018-08/85454CBE-87E0-4078-B1B4-0E8743A8302C.png](https://qiniu.sukoshi.xyz/attach/2018-08/85454CBE-87E0-4078-B1B4-0E8743A8302C.png)
 
 Mac下默认是安装了zsh的
 
@@ -81,13 +81,13 @@ iterm2的分屏功能和多tab页合并是我最喜欢的，有时候开发需�
 
 右键*New Tab*即可创建一个新的tab页，按下*command+数字*切换对应的tab页。
 
-![https://qiniu.miiiku.xyz/attach/2018-08/0A7F3652-1493-43E1-849A-F2F082B66E76.png](https://qiniu.miiiku.xyz/attach/2018-08/0A7F3652-1493-43E1-849A-F2F082B66E76.png)
+![https://qiniu.sukoshi.xyz/attach/2018-08/0A7F3652-1493-43E1-849A-F2F082B66E76.png](https://qiniu.sukoshi.xyz/attach/2018-08/0A7F3652-1493-43E1-849A-F2F082B66E76.png)
 
 设置快捷打开方式：
 
 在iterm2为焦点的情况下，按*command+,*，选中*Keys*，找到*Hotkey*打勾即可，默认快捷键为*optin+space*
 
-![https://qiniu.miiiku.xyz/attach/2018-08/DE2819F8-2778-4114-986A-F4A2D0268E40.png](https://qiniu.miiiku.xyz/attach/2018-08/DE2819F8-2778-4114-986A-F4A2D0268E40.png)
+![https://qiniu.sukoshi.xyz/attach/2018-08/DE2819F8-2778-4114-986A-F4A2D0268E40.png](https://qiniu.sukoshi.xyz/attach/2018-08/DE2819F8-2778-4114-986A-F4A2D0268E40.png)
 
 以上！！！
 

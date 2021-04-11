@@ -44,26 +44,26 @@ console.log(str)
 
 ### 插入音频
 
-{% aplayer name="アイロニ" artist="鹿乃" url="https://qiniu.miiiku.xyz/public/music/鹿乃 - アイロニ.mp3" lrc="https://qiniu.miiiku.xyz/public/music/鹿乃 - アイロニ.lrc" cover="https://qiniu.miiiku.xyz/public/music/鹿乃 - アイロニ.jpg" %}
+{% aplayer name="アイロニ" artist="鹿乃" url="https://qiniu.sukoshi.xyz/public/music/鹿乃 - アイロニ.mp3" lrc="https://qiniu.sukoshi.xyz/public/music/鹿乃 - アイロニ.lrc" cover="https://qiniu.sukoshi.xyz/public/music/鹿乃 - アイロニ.jpg" %}
 
 ### 插入视频
 
-{% dplayer url="https://qiniu.miiiku.xyz/video/%E7%BE%8E.mp4" cover="https://qiniu.miiiku.xyz/video/%E7%BE%8E.mp4?vframe/jpg/offset/10" %} 
+{% dplayer url="https://qiniu.sukoshi.xyz/video/%E7%BE%8E.mp4" cover="https://qiniu.sukoshi.xyz/video/%E7%BE%8E.mp4?vframe/jpg/offset/10" %} 
 
 ### 插入图片
 
 默认大小
 
-{% image url="https://qiniu.miiiku.xyz/attach/2019/03/15529735091219953_175322076_H800.jpg" title="hello world" %}
+{% image url="https://qiniu.sukoshi.xyz/attach/2019/03/15529735091219953_175322076_H800.jpg" title="hello world" %}
 
 大图
 
-{% image url="https://qiniu.miiiku.xyz/public/image/wide.png" title="max 大小图片" size="max" %}
+{% image url="https://qiniu.sukoshi.xyz/public/image/wide.png" title="max 大小图片" size="max" %}
 
 
 ### 插入书签
 
-{% bookmark title="我在这里" link="https://miiiku.xyz" cover="https://qiniu.miiiku.xyz/attach/2019/03/15529735091219953_175322076_H800.jpg" %}
+{% bookmark title="我在这里" link="https://miiiku.xyz" cover="https://qiniu.sukoshi.xyz/attach/2019/03/15529735091219953_175322076_H800.jpg" %}
 
 {% bookmark title="一点点小站" link="http://sukoshi.xyz" %}
 
@@ -72,19 +72,19 @@ console.log(str)
 默认宽度
 
 {% waterfall direction="h" %}
-![https://qiniu.miiiku.xyz/public/image/20161114_110128607_iOS.jpg](https://qiniu.miiiku.xyz/public/image/20161114_110128607_iOS.jpg)
+![https://qiniu.sukoshi.xyz/public/image/20161114_110128607_iOS.jpg](https://qiniu.sukoshi.xyz/public/image/20161114_110128607_iOS.jpg)
 
-![https://qiniu.miiiku.xyz/public/image/25fb81065c0625a4f9bf0a9601a2dcad.jpeg](https://qiniu.miiiku.xyz/public/image/25fb81065c0625a4f9bf0a9601a2dcad.jpeg)
+![https://qiniu.sukoshi.xyz/public/image/25fb81065c0625a4f9bf0a9601a2dcad.jpeg](https://qiniu.sukoshi.xyz/public/image/25fb81065c0625a4f9bf0a9601a2dcad.jpeg)
 
-![https://qiniu.miiiku.xyz/public/image/57793944_p0.png](https://qiniu.miiiku.xyz/public/image/57793944_p0.png)
+![https://qiniu.sukoshi.xyz/public/image/57793944_p0.png](https://qiniu.sukoshi.xyz/public/image/57793944_p0.png)
 {% endwaterfall %}
 
 超大宽度
 
 {% waterfall size="max" direction="h" %}
-![https://qiniu.miiiku.xyz/public/image/20161114_110128607_iOS.jpg](https://qiniu.miiiku.xyz/public/image/20161114_110128607_iOS.jpg)
+![https://qiniu.sukoshi.xyz/public/image/20161114_110128607_iOS.jpg](https://qiniu.sukoshi.xyz/public/image/20161114_110128607_iOS.jpg)
 
-![https://qiniu.miiiku.xyz/public/image/25fb81065c0625a4f9bf0a9601a2dcad.jpeg](https://qiniu.miiiku.xyz/public/image/25fb81065c0625a4f9bf0a9601a2dcad.jpeg)
+![https://qiniu.sukoshi.xyz/public/image/25fb81065c0625a4f9bf0a9601a2dcad.jpeg](https://qiniu.sukoshi.xyz/public/image/25fb81065c0625a4f9bf0a9601a2dcad.jpeg)
 
-![https://qiniu.miiiku.xyz/public/image/57793944_p0.png](https://qiniu.miiiku.xyz/public/image/57793944_p0.png)
+![https://qiniu.sukoshi.xyz/public/image/57793944_p0.png](https://qiniu.sukoshi.xyz/public/image/57793944_p0.png)
 {% endwaterfall %}
