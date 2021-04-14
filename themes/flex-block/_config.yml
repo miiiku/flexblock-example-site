@@ -86,8 +86,7 @@ favicon: /favicon.ico
 
 # Social Icon
 social_icon:
-  header_enable: true
-  footer_enable: true
+  enable: true
   icons:
     - { type: twitter,    value: https://twitter.com/guanquanhong }
     - { type: weibo,      value: https://weibo.com/5561168966/profile?rightmod=1&wvr=6&mod=personinfo }

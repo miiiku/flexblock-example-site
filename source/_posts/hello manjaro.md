@@ -193,13 +193,13 @@ screenfetch
 -------------------------------- 华丽的分割线
 
 
-![manjaro-1.png](///qiniu.miiiku.xyz/manjaro-1.png)
-![manjaro-2.png](///qiniu.miiiku.xyz/manjaro-2.png)
-![manjaro-3.png](///qiniu.miiiku.xyz/manjaro-3.png)
-![manjaro-4.png](///qiniu.miiiku.xyz/manjaro-4.png)
-![manjaro-5.png](///qiniu.miiiku.xyz/manjaro-5.png)
-![manjaro-6.png](///qiniu.miiiku.xyz/manjaro-6.png)
-![manjaro-7.png](///qiniu.miiiku.xyz/manjaro-7.png)
+![manjaro-1.png](https://qiniu.sukoshi.xyz/manjaro-1.png)
+![manjaro-2.png](https://qiniu.sukoshi.xyz/manjaro-2.png)
+![manjaro-3.png](https://qiniu.sukoshi.xyz/manjaro-3.png)
+![manjaro-4.png](https://qiniu.sukoshi.xyz/manjaro-4.png)
+![manjaro-5.png](https://qiniu.sukoshi.xyz/manjaro-5.png)
+![manjaro-6.png](https://qiniu.sukoshi.xyz/manjaro-6.png)
+![manjaro-7.png](https://qiniu.sukoshi.xyz/manjaro-7.png)
 
 
 

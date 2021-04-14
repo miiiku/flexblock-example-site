@@ -18,7 +18,7 @@ pageview: 1501
 
 视频预览：[wallpaper_engine 自制音乐可视化壁纸](https://www.bilibili.com/video/av10522616/)
 
-![canvas_voice.png](///qiniu.miiiku.xyz/canvas_voice.png)
+![canvas_voice.png](https://qiniu.sukoshi.xyz/canvas_voice.png)
 
 
 
