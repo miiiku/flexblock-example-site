@@ -6,15 +6,15 @@ categories:
 tags:
 - ONE OK ROCK
 - mv
-cover: https://qiniu.sukoshi.xyz/attach/2018/11/Stand-Out-Fit-In.jpg
+cover: https://qiniu.sukoshi.xyz/attach/2018/11/29/Stand-Out-Fit-In.jpg
 pageview: 88
 ---
 
-{% dplayer url="https://qiniu.sukoshi.xyz/video/ONE%20OK%20ROCK%20-%20Stand%20Out%20Fit%20In.mp4" cover="https://qiniu.sukoshi.xyz/video/ONE%20OK%20ROCK%20-%20Stand%20Out%20Fit%20In.mp4?vframe/jpg/offset/10" %} 
-
-
-
 ONE OK ROCK's official video for 'Stand Out Fit In’. 
+
+{% dplayer url="https://qiniu.sukoshi.xyz/attach/2018/11/29/ONE%20OK%20ROCK%20-%20Stand%20Out%20Fit%20In-hls640.m3u8" cover="https://qiniu.sukoshi.xyz/attach/2018/11/29/ONE%20OK%20ROCK%20-%20Stand%20Out%20Fit%20In-hls640.m3u8?vframe/jpg/offset/10" %} 
+
+
 Directed By Peter Huang
 
 Subtitles by Taka and Yasuko Ishida
@@ -22,11 +22,17 @@ Subtitles by Taka and Yasuko Ishida
 Pre-order Eye Of The Storm today: https://amuse-inc.lnk.to/ONEOKROCK
 
 Find ONE OK ROCK on… 
+
 Site: http://www.oneokrock.com/ 
+
 Facebook: http://smarturl.it/OORfacebook 
+
 Twitter: http://smarturl.it/OORtwitter 
+
 Instagram: http://smarturl.it/OORinstagram 
+
 YouTube: http://smarturl.it/OORyoutube 
+
 Spotify: http://smarturl.it/OORspotify
 
 
