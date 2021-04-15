@@ -5,7 +5,7 @@ date: 2019-02-21 19:13:16
 cover: https://qiniu.sukoshi.xyz/src/images/68135789_p0.jpg
 ---
 
-** ʚ 沃捏哇刚哒母 ɞ **
+**ʚ 沃捏哇刚哒母 ɞ**
 
 **「90后大叔です」** **「人怂话不多 小声BB」** **「伪二刺猿 呐,呐,呐」** **「死肥宅 肥宅针鹅心」** **「🏠里蹲 在家玩游戏它不香吗」** 
 
@@ -15,7 +15,7 @@ cover: https://qiniu.sukoshi.xyz/src/images/68135789_p0.jpg
 
 ---
 
-** ʚ 博客 ɞ **
+**ʚ 博客 ɞ**
 
 基于[Hexo](https://hexo.io/zh-cn/)的一个个人博客，目的是偶尔 分享 记录 生活，写写笔记啥的。
 
@@ -27,7 +27,7 @@ cover: https://qiniu.sukoshi.xyz/src/images/68135789_p0.jpg
 
 - [hexo-theme-snail](https://github.com/dusign/hexo-theme-snail)
 
-** 没错，缝合怪就是我！ **
+**没错，缝合怪就是我！**
 
 临时边看文档边写的，可能性能并不好，支持可能也不好 Orz。
 
@@ -37,10 +37,10 @@ cover: https://qiniu.sukoshi.xyz/src/images/68135789_p0.jpg
 
 ---
 
-** ʚ 如何修改自己的评论头像 ɞ **
+**ʚ 如何修改自己的评论头像 ɞ**
 
 进入https://cn.gravatar.com/
 
-点击那个很瞩目的蓝色按钮 ** “Create Your Own Gravatar” ** 使用你的邮箱注册账号，上传你的头像就可以了
+点击那个很瞩目的蓝色按钮 **“Create Your Own Gravatar”** 使用你的邮箱注册账号，上传你的头像就可以了
 
 注意的是你的头像必须选择点击G-全年龄级
