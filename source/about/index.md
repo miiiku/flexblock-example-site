@@ -2,7 +2,7 @@
 title: 关于
 subtitle: 想了解我点的什么？
 date: 2019-02-21 19:13:16
-cover: https://cloud.miiiku.xyz/src/images/banner-5.jpg-compress
+cover: https://qiniu.sukoshi.xyz/src/images/68135789_p0.jpg
 ---
 
 ** ʚ 沃捏哇刚哒母 ɞ **
