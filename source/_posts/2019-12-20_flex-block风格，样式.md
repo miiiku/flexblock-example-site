@@ -54,11 +54,11 @@ console.log(str)
 
 默认大小
 
-{% image url="https://qiniu.sukoshi.xyz/attach/2019/03/15529735091219953_175322076_H800.jpg" title="hello world" %}
+{% image url="https://qiniu.sukoshi.xyz/attach/2019/03/15529735091219953_175322076_H800.jpg@webp" title="hello world" %}
 
 大图
 
-{% image url="https://qiniu.sukoshi.xyz/public/image/wide.png" title="max 大小图片" size="max" %}
+{% image url="https://qiniu.sukoshi.xyz/public/image/wide.png@webp" title="max 大小图片" size="max" %}
 
 
 ### 插入书签
@@ -72,19 +72,19 @@ console.log(str)
 默认宽度
 
 {% waterfall direction="h" %}
-![https://qiniu.sukoshi.xyz/public/image/20161114_110128607_iOS.jpg](https://qiniu.sukoshi.xyz/public/image/20161114_110128607_iOS.jpg)
+![https://qiniu.sukoshi.xyz/public/image/20161114_110128607_iOS.jpg](https://qiniu.sukoshi.xyz/public/image/20161114_110128607_iOS.jpg@webp)
 
-![https://qiniu.sukoshi.xyz/public/image/25fb81065c0625a4f9bf0a9601a2dcad.jpeg](https://qiniu.sukoshi.xyz/public/image/25fb81065c0625a4f9bf0a9601a2dcad.jpeg)
+![https://qiniu.sukoshi.xyz/public/image/25fb81065c0625a4f9bf0a9601a2dcad.jpeg](https://qiniu.sukoshi.xyz/public/image/25fb81065c0625a4f9bf0a9601a2dcad.jpeg@webp)
 
-![https://qiniu.sukoshi.xyz/public/image/57793944_p0.png](https://qiniu.sukoshi.xyz/public/image/57793944_p0.png)
+![https://qiniu.sukoshi.xyz/public/image/57793944_p0.png](https://qiniu.sukoshi.xyz/public/image/57793944_p0.png@webp)
 {% endwaterfall %}
 
 超大宽度
 
 {% waterfall size="max" direction="h" %}
-![https://qiniu.sukoshi.xyz/public/image/20161114_110128607_iOS.jpg](https://qiniu.sukoshi.xyz/public/image/20161114_110128607_iOS.jpg)
+![https://qiniu.sukoshi.xyz/public/image/20161114_110128607_iOS.jpg](https://qiniu.sukoshi.xyz/public/image/20161114_110128607_iOS.jpg@webp)
 
-![https://qiniu.sukoshi.xyz/public/image/25fb81065c0625a4f9bf0a9601a2dcad.jpeg](https://qiniu.sukoshi.xyz/public/image/25fb81065c0625a4f9bf0a9601a2dcad.jpeg)
+![https://qiniu.sukoshi.xyz/public/image/25fb81065c0625a4f9bf0a9601a2dcad.jpeg](https://qiniu.sukoshi.xyz/public/image/25fb81065c0625a4f9bf0a9601a2dcad.jpeg@webp)
 
-![https://qiniu.sukoshi.xyz/public/image/57793944_p0.png](https://qiniu.sukoshi.xyz/public/image/57793944_p0.png)
+![https://qiniu.sukoshi.xyz/public/image/57793944_p0.png](https://qiniu.sukoshi.xyz/public/image/57793944_p0.png@webp)
 {% endwaterfall %}
