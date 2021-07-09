@@ -1,7 +1,7 @@
 title: 小伙伴
 subtitle: 嘿，靓仔
 date: 2019-03-05 14:12:17
-type: links
+layout: links
 cover: https://cloud.miiiku.xyz/src/images/banner-3.jpg-compress
 ---
 

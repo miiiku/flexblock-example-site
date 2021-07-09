@@ -3,6 +3,16 @@ title: 关于
 subtitle: 想了解我点的什么？
 date: 2019-02-21 19:13:16
 cover: https://qiniu.sukoshi.xyz/src/images/68135789_p0.jpg
+aplayer: true
+---
+
+{% aplayer
+  name="you（寒蝉鸣泣之时）伴奏"
+  artist="M.Graveyard"
+  url="https://qiniu.sukoshi.xyz/attach/2021/04/12/you%EF%BC%88%E5%AF%92%E8%9D%89%E9%B8%A3%E6%B3%A3%E4%B9%8B%E6%97%B6%EF%BC%89%E4%BC%B4%E5%A5%8F.mp3"
+  cover="https://qiniu.sukoshi.xyz/attach/2021/04/12/you%EF%BC%88%E5%AF%92%E8%9D%89%E9%B8%A3%E6%B3%A3%E4%B9%8B%E6%97%B6%EF%BC%89%E4%BC%B4%E5%A5%8F.jpeg@webp"
+%}
+
 ---
 
 **ʚ 沃捏哇刚哒母 ɞ**
@@ -21,19 +31,7 @@ cover: https://qiniu.sukoshi.xyz/src/images/68135789_p0.jpg
 
 主题使用的是自己开发的[flex-block](https://github.com/miiiku/flex-block)主题
 
-主题灵感来源于以下但不限于以下列表:
-
-- [nurui](https://nurui.fueko.net/)
-
-- [hexo-theme-snail](https://github.com/dusign/hexo-theme-snail)
-
-**没错，缝合怪就是我！**
-
-临时边看文档边写的，可能性能并不好，支持可能也不好 Orz。
-
-慢慢迭代吧！（随缘更新哒）
-
-~~有机会了大概会试试[Hugo](https://gohugo.io/)~~ 累了，毁灭吧！
+如果你是使用`HUGO`的话，也可以试试[kagome](https://github.com/miiiku/hugo-theme-kagome)
 
 ---
 
