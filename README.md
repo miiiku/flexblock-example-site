@@ -1,5 +1,9 @@
-# 我在这里
+# flexblock-example-site
 
-### 一个基于Hexo的个人博客
+flex-block主题示例网站内容
 
-### [https://sukoshi.xyz](https://sukoshi.xyz)
+托管在[vercel](https://vercel.com/)
+
+如偶尔访问不了请尝试🔬上网
+
+访问: [DEMO](https://kyori.xyz)
