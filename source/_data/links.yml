@@ -1,18 +1,4 @@
-- { "name" : "梨花细雨不见鹿🦌", "link" : "https://kikyo.cc/", "describe" : "D P F X Come, You Stay Here!", "cover" : "https://s.gravatar.com/avatar/7b5a0b07a98895278cfa862b1f32ae8f?s=200&r=g&d=retro" }
-- { "name" : "Sola", "link" : "https://github.com/miiiku", "describe" : "你这个需求实现不了！", "cover" : "https://s.gravatar.com/avatar/7b5a0b07a98895278cfa862b1f32ae8f?s=200&r=g&d=retro" }
-- { "name" : "flex-block", "link": "https://github.com/miiiku/flex-block", "describe" : "主题仓库地址" }
-
-- { "name" : "一个技术宅的小站", "link" : "http://www.geekcj.com/", "describe" : "一个技术宅的小站", "cover" : "https://secure.gravatar.com/avatar/7400af4725430d4029381e34d0bfcdff?s=150&r=G&d=mm" }
-- { "name" : "ACG喵", "link" : "http://acgmiao.com/", "describe" : "交流·分享·乐趣" }
-- { "name" : "技术客 - 技术杂谈|IT经验分享", "link" : "http://adtuu.com/", "describe" : "技术大佬~" }
-- { "name" : "扁担长 板凳宽 | 我是笨蛋小扁担 | BianTanW | BianDan", "link" : "https://biantan.org/", "describe" : "大一dalao！", "cover" : "https://s.gravatar.com/avatar/32a82c21335fafd4bd8e069b6d74aa5c?s=200&r=g&d=retro" }
-- { "name" : "亿林", "link" : "https://minemine.cc/", "describe" : "爱迪生说过：“要把BOSS打倒就要准备足够的等级。”", "cover" : "https://s.gravatar.com/avatar/564e0c37b5fe497136b4d25a050ddc36?s=100&r=x&d=retro" }
-- { "name" : "猫宅酱の小屋", "describe" : "一个文艺小清新的二次元小宅！", "link" : "https://meowqvq.wordpress.com/", "cover" : "https://t.cn/EvBWBJP" }
-- { "name" : "柠檬酸的情感小阁", "describe" : "喜欢漂亮妹子的程序猿", "link" : "https://cherryml.com/", "cover" : "https://s.gravatar.com/avatar/a82f5d10066b4a83d366969de08c2074?s=200&r=g&d=retro" }
-- { "name" : "meows", "describe" : "We accept the love we think we deserve.", "link" : "https://meows.moe/", "cover" : "https://s1.ax1x.com/2018/10/21/iBXNHf.jpg" }
-- { "name" : "枫灵er", "describe" : "什么都感兴趣什么都想学的小白", "link" : "http://www.wulongxin.com/", "cover" : "http://wx1.sinaimg.cn/mw690/817acd87ly1fzzh9ldz59j20ic0icq6k.jpg" }
-- { "name" : "🐔哥", "describe" : "🐔哥流弊", "link" : "http://zlzplay.com/", "cover" : "" }
-- { "name" : "Morty", "describe" : "CS随笔", "link" : "https://www.imcyc.cn", "cover" : "https://s.gravatar.com/avatar/6e9164b08cc215816e6381d5f9f70b58?s=80" }
-- { "name" : "死线的博客", "describe" : "大龄死宅的吐槽地", "link" : "http://blog.mipa.site/", "cover" : "http://r.photo.store.qq.com/psb?/V14E79GG4eqYl3/2z7xX8f4KxOsJQYfSAxYoYW7d9JON5J8JnWT*Xncr0k!/r/dFEBAAAAAAAA" }
-- { "name" : "哲学系老干部", "describe" : "", "link" : "https://steinsgate.link/", "cover" : "https://steinsgate.link/images/avatar.jpg" }
-- { "name" : "North Area", "describe": "一个苦逼的日本留学生", "link": "https://www.northarea.tech/", "cover": "https://avatars0.githubusercontent.com/u/3104820?s=460&v=4" }
+- { "name" : "Sukoshi", "link" : "https://sukoshi.xyz", "description" : "十八岁基层程序猿想做涩影狮", "avatar" : "https://s.gravatar.com/avatar/7b5a0b07a98895278cfa862b1f32ae8f?s=200&r=g&d=retro" }
+- { "name" : "战术翻滚", "link" : "https://www.zhihu.com/people/miku-84", "avatar" : "https://pic4.zhimg.com/v2-080a5da5fdea9311f317ca7409da72a6_xll.jpg" }
+- { "name" : "Sukoshi", "link" : "https://space.bilibili.com/5829751", "description" : "贵在坚持", "avatar" : "https://i1.hdslb.com/bfs/face/2d437c10aa9615057f840315c9b6f78e355117eb.jpg@256w_256h_1o.jpg" }
+- { "name" : "Sola", "link" : "https://github.com/miiiku", "description" : "你这个需求实现不了！", "avatar" : "https://avatars.githubusercontent.com/u/19169144?v=4" }
