@@ -5,7 +5,7 @@ menu:
   关于: /about
 
 # 主页banner图
-banner: https://qiniu.sukoshi.xyz/src/images/68686407_p0.jpg@webp
+banner: https://qiniu.sukoshi.xyz/src/images/68686407_p0.jpg
 
 # 站点通知信息
 notice: flex-block主题部分重构，详情查看https://github.com/miiiku/flex-block
@@ -26,15 +26,20 @@ comments:
   # valine 评论
   # docs: https://valine.js.org
   # You can get your appid and appkey from https://leancloud.cn
-  # 这里appId和appKey一定一定要改成自己的，没有的话去https://leancloud.cn这个网站注册创建一个
+  # 这里appId和appKey一定一定要改成自己的，没有的话去 https://leancloud.cn 这个网站注册创建一个
   valine:
     appId: 
     appKey: 
-    avatar: mm
-    placeholder: 随便说点什么叭～
-    notify: true
-    visitor: true
-    pageSize: 10
+    placeholder: 随便说点什么叭～ # 评论框占位提示符
+    avatar: mp # Gravatar 头像展示方式
+    pageSize: 10 # 评论列表分页，每页条数
+    lang: zh-cn # 多语言支持
+    visitor: true # 文章访问量统计
+    recordIP: true # 是否记录评论者IP
+    enableQQ: false # 是否启用昵称框自动获取QQ昵称和QQ头像，开启后是在昵称框输入QQ号码进行获取
+    meta: "['nick', 'mail', 'link']" # 评论者相关属性，可选值：['nick']，['nick','mail']，['nick', 'mail', 'link']
+    requiredFields: "['nick']" # 设置必填项，默认匿名
+    bilibiliEmoji: true # 是否启用Bilibili表情
   # disqus 评论
   # docs: https://disqus.com/
   disqus:
@@ -60,15 +65,26 @@ aplayer:
   mutex: true
   lrcType: 3
 
+# mathjax LaTeX公式支持
+# docs: http://docs.mathjax.org/en/latest/
+mathjax:
+  enable: true
+
+# polyfill 提供老版浏览器对新语法的支持
+# website: https://polyfill.io/v3/ 
+polyfill:
+  enable: false
+
+
 # 国内备案信息
 beian: 
 
 # 谷歌分析
-google_analytics: G-JJT9RKGCWJ
+google_analytics: 
 # gauges分析
 gauges_analytics: 
 # 百度分析
-baidu_analytics: c002d517ed91c82c91e4ee4ccdd7ca29
+baidu_analytics: 
 # 腾讯分析
 tencent_analytics: 
 # 站点ico

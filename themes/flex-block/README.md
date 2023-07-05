@@ -7,7 +7,7 @@
 
 ![flex-block--post](./screenshots/flex-block--post.jpeg)
 
-### v2.0以发布，重构部分代码。如需要查看v1.0的代码请访问:[v1.0](https://github.com/miiiku/flex-block/tree/v1.0)
+### v2.0以发布，重构部分代码。如需要查看v1.0的代码请访问:[v1.0](https://github.com/miiiku/hexo-theme-flexblock/tree/v1.0)
 
 
 ## Example Site
@@ -16,15 +16,15 @@
 
 ## Document
 
-Change description: [flex-block改动说明](https://kiyori.xyz/2021/07/080920.html)
+Change description: [flex-block改动说明](https://kyori.xyz/2021/07/080920.html)
 
-doc list: [docs](https://kiyori.xyz/categories/doc/)
+doc list: [docs](https://kyori.xyz/categories/doc/)
 
-- [_config.yml配置](https://kiyori.xyz/2021/07/081144.html)
+- [_config.yml配置](https://kyori.xyz/2021/07/081144.html)
 
-- [front-matter配置](https://kiyori.xyz/2021/07/081100.html)
+- [front-matter配置](https://kyori.xyz/2021/07/081100.html)
 
-- [插入图片，音频和视频](https://kiyori.xyz/2021/07/081010.html)
+- [插入图片，音频和视频](https://kyori.xyz/2021/07/081010.html)
 
 
 ### Install
@@ -36,10 +36,10 @@ doc list: [docs](https://kiyori.xyz/categories/doc/)
 进入你的网站目录并执行以下代码:
 
 ```
-git clone https://github.com/miiiku/flex-block.git ./themes/flex-block
+git clone https://github.com/miiiku/hexo-theme-flexblock.git ./themes/flex-block
 ```
 
-如果你不是`git`用户也可以从[https://github.com/miiiku/flex-block/archive/refs/heads/master.zip](https://github.com/miiiku/flex-block/archive/refs/heads/master.zip)下载压缩包解压到你的网站目录下的`theme`文件夹下并重命名`hugo-theme-kagome-main`为`kagome`。
+如果你不是`git`用户也可以从[https://github.com/miiiku/hexo-theme-flexblock/archive/refs/heads/master.zip](https://github.com/miiiku/hexo-theme-flexblock/archive/refs/heads/master.zip)下载压缩包解压到你的网站目录下的`theme`文件夹下并重命名`hexo-theme-flexblock-master`为`flex-block`。
 
 #### 修改一些主题配置
 
